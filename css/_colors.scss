@@ -1,0 +1,55 @@
+$primary-color: #c59a2a;
+$primary-color-light: #ffd66c;
+$primary-color-softlight: #f6ebcc;
+$primary-color-dark: #4f3e02;
+$primary-light: #fff;
+$primary-gradient: linear-gradient(263.21deg, $primary-color-light 4.26%, $primary-color 96.44%);
+
+.theme-text {
+    color: $primary-color-dark;
+}
+.theme-btn {
+    background: $primary-color-light;
+    border: none;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    color:inherit;
+    transition: 0.3s;
+    &:hover{
+        background:darken($color:$primary-color-light , $amount: 30);
+        color:$primary-light;
+    }
+    &.round-20 {
+        border-radius: 20px;
+    }
+}
+.theme-gd {
+    background: $primary-gradient;
+}
+
+.title-text{
+    color:$primary-color-dark;
+    &.underline{
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        &::before{
+            content: "";
+            display: inline-block;
+            position: absolute;
+            width: 100%;;
+            height: 7px;
+            border-radius: 20px;
+            background:lighten($color:$primary-color-dark, $amount: 20);
+            bottom:-20px;
+            left:0px;
+        }
+    }
+}
+.theme-soft-bg{
+    background: $primary-color-softlight;;
+    &:focus{
+        background:$primary-color-softlight;
+    }
+}

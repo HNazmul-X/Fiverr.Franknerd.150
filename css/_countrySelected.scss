@@ -1,0 +1,70 @@
+@import "colors";
+#header_country-selected {
+    background: linear-gradient(263.21deg, $primary-color-light 38.45%, $primary-color 38.6%, $primary-color 96.44%);
+    padding: 100px;
+    margin-top: 50px;
+    h1 {
+        font-weight: bold;
+        font-size: 74px;
+        color: #4f3e02;
+    }
+}
+
+#select-your-country {
+    h1 {
+        font-weight: bold;
+        font-size: 74px;
+
+        color: #4f3e02;
+    }
+
+    .all-country-area {
+        .countries {
+            display: flex;
+            flex-flow: wrap;
+            gap: 4rem;
+            justify-content: space-evenly;
+            margin:40px auto;
+            .country-box {
+                $color1: saturate(
+                    $color: $primary-color,
+                    $amount: 60,
+                );
+                &:hover{
+                    .country-name{
+                        bottom: 0px;
+                    }
+                }
+                width: 280px;
+                height: 280px;
+                border-radius: 473px;
+                border-radius: 50%;
+                background: radial-gradient(50% 50% at 50% 50%, $color1 23.63%, $primary-light 100%);
+                position: relative;
+                border: 5px solid $primary-color-softlight;
+                overflow: hidden;
+                .country-flag {
+                    width: 142px;
+                    height: 142px;
+                    position: absolute;
+                    left:50%;
+                    top:50%;
+                    transform: translate(-50%, -50%);
+                    border-radius: 50%;;
+                    object-fit: cover;
+                }
+                .country-name{
+                    padding:10px;
+                    height: 90px;
+                    width:100%;
+                    background:#C4C4C4;
+                    text-align: center;
+                    position: absolute;
+                    left:0px;
+                    bottom:-100%;
+                    transition: 0.3s cubic-bezier(0.83, 0.57, 0.07, 1.29);
+                }
+            }
+        }
+    }
+}
