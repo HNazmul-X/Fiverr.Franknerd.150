@@ -1,0 +1,114 @@
+@import "colors";
+#FAQ-page-css {
+    /* basic setup */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* basic setup */
+    .faqs-section {
+        padding: 100px 0;
+    }
+    .faqs-section .faq-boxes,
+    .faqs-section .top-box {
+        width: 80%;
+        margin: auto;
+    }
+    .faqs-section .top-box {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding: 50px;
+        background: linear-gradient(darken($color: $primary-color-light, $amount: 4), darken($primary-color, 10%));
+        border-radius: 55px;
+
+        input {
+            background: $primary-color-softlight;
+            border: 4px solid $primary-color-light;
+            box-sizing: border-box;
+            border-radius: 13px;
+            width:200px;
+            &::placeholder {
+                font-size: 14px;
+                font-weight: 500;
+                color: darken($color: $primary-color-light, $amount: 10);
+            }
+        }
+    }
+    .faqs-section .top-box label {
+        color: #fff;
+    }
+    .faqs-section .top-box input,
+    .faqs-section .top-box button {
+        
+        @extend .theme-btn;
+    }
+    .faqs-section .top-box button {
+        @extend .theme-btn;
+        background: #fff;
+        box-shadow: 0px 3px 2px rgba(0, 0, 0, 1);
+        transition: 0.3s;
+    }
+    .faqs-section .top-box button:active {
+        box-shadow: none;
+    }
+    .faqs-section .faq-boxes .top-title {
+        padding: 25px;
+        text-align: center;
+        color: rgb(255, 214, 108);
+        font-size: 26px;
+    }
+    .faqs-section .faq-boxes .top-title::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 5px;
+        margin: 10px auto;
+        background: rgba(197, 154, 42, 0.6);
+    }
+    .faqs-section .faq-boxes .faq-box {
+        padding: 15px 30px;
+        width: 100%;
+        background: rgb(255, 214, 108);
+        color: #fff;
+        margin-bottom: 30px;
+        transition: 1s;
+        border-radius: 45px;
+    }
+    .faq-box .question-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .faq-box .question-box .question {
+        margin-right: 20px;
+    }
+
+    .faqs-section .faq-boxes .faq-box .description {
+        font-size: 18px;
+        padding: 20px 0;
+    }
+    .d-nai {
+        display: none;
+    }
+    .arrow-btn .button {
+        display: flex;
+        align-items: center;
+        padding: 8px 16px;
+        border-radius: 15px;
+        font-size: 20px;
+        border: 2px solid #fff;
+        background: none;
+        transition: 0.4s;
+    }
+    .arrow-btn .button:hover {
+        background: rgba(255, 255, 255, 0.7);
+        color: rgb(197, 154, 42);
+    }
+    .arrow-btn .button:active {
+        background: rgb(255, 255, 255);
+    }
+    /* .arrow-btn .button */
+}

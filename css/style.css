@@ -5,7 +5,8 @@
   color: #4f3e02;
 }
 
-.theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button {
+.theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
+#FAQ-page-css .faqs-section .top-box button {
   background: #ffd66c;
   border: none;
   padding: 10px 25px;
@@ -16,12 +17,14 @@
   transition: 0.3s;
 }
 
-.theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover {
+.theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
+#FAQ-page-css .faqs-section .top-box button:hover {
   background: #d29700;
   color: #fff;
 }
 
-.theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20 {
+.theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20, #FAQ-page-css .faqs-section .top-box input.round-20,
+#FAQ-page-css .faqs-section .top-box button.round-20 {
   border-radius: 20px;
 }
 
@@ -85,7 +88,8 @@ button {
   color: #4f3e02;
 }
 
-.theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button {
+.theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
+#FAQ-page-css .faqs-section .top-box button {
   background: #ffd66c;
   border: none;
   padding: 10px 25px;
@@ -96,12 +100,14 @@ button {
   transition: 0.3s;
 }
 
-.theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover {
+.theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
+#FAQ-page-css .faqs-section .top-box button:hover {
   background: #d29700;
   color: #fff;
 }
 
-.theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20 {
+.theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20, #FAQ-page-css .faqs-section .top-box input.round-20,
+#FAQ-page-css .faqs-section .top-box button.round-20 {
   border-radius: 20px;
 }
 
@@ -292,7 +298,8 @@ button {
   color: #4f3e02;
 }
 
-.theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button {
+.theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
+#FAQ-page-css .faqs-section .top-box button {
   background: #ffd66c;
   border: none;
   padding: 10px 25px;
@@ -303,12 +310,14 @@ button {
   transition: 0.3s;
 }
 
-.theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover {
+.theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
+#FAQ-page-css .faqs-section .top-box button:hover {
   background: #d29700;
   color: #fff;
 }
 
-.theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20 {
+.theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20, #FAQ-page-css .faqs-section .top-box input.round-20,
+#FAQ-page-css .faqs-section .top-box button.round-20 {
   border-radius: 20px;
 }
 
@@ -589,7 +598,8 @@ button {
   color: #4f3e02;
 }
 
-.theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button {
+.theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
+#FAQ-page-css .faqs-section .top-box button {
   background: #ffd66c;
   border: none;
   padding: 10px 25px;
@@ -600,12 +610,14 @@ button {
   transition: 0.3s;
 }
 
-.theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover {
+.theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
+#FAQ-page-css .faqs-section .top-box button:hover {
   background: #d29700;
   color: #fff;
 }
 
-.theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20 {
+.theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20, #FAQ-page-css .faqs-section .top-box input.round-20,
+#FAQ-page-css .faqs-section .top-box button.round-20 {
   border-radius: 20px;
 }
 
@@ -713,5 +725,584 @@ button {
   bottom: -100%;
   -webkit-transition: 0.3s cubic-bezier(0.83, 0.57, 0.07, 1.29);
   transition: 0.3s cubic-bezier(0.83, 0.57, 0.07, 1.29);
+}
+
+.theme-text {
+  color: #4f3e02;
+}
+
+.theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
+#FAQ-page-css .faqs-section .top-box button {
+  background: #ffd66c;
+  border: none;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
+#FAQ-page-css .faqs-section .top-box button:hover {
+  background: #d29700;
+  color: #fff;
+}
+
+.theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20, #FAQ-page-css .faqs-section .top-box input.round-20,
+#FAQ-page-css .faqs-section .top-box button.round-20 {
+  border-radius: 20px;
+}
+
+.theme-gd {
+  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+}
+
+.title-text {
+  color: #4f3e02;
+}
+
+.title-text.underline {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+.title-text.underline::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  border-radius: 20px;
+  background: #b28c05;
+  bottom: -20px;
+  left: 0px;
+}
+
+.theme-soft-bg {
+  background: #f6ebcc;
+}
+
+.theme-soft-bg:focus {
+  background: #f6ebcc;
+}
+
+#winning_product-header {
+  background: linear-gradient(263.21deg, rgba(197, 154, 42, 0.7) 15.41%, #ffd66c 72.53%, #c59a2a 72.67%);
+  padding: 6rem;
+  padding-top: 9rem;
+}
+
+#winning_product-header h1 {
+  font-weight: bold;
+  font-size: 59px;
+  color: #4f3e02;
+}
+
+#filter_options_Section {
+  max-width: 870px;
+  margin: auto;
+  background: #f9f2dd;
+  margin-bottom: 3rem;
+  margin-top: -2rem;
+}
+
+#filter_options_Section .filter-options-area .filter-option-choice .nav.nav-tabs {
+  padding: 5px 5px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#filter_options_Section .filter-options-area .filter-option-choice .nav.nav-tabs .nav-item {
+  width: 50%;
+}
+
+#filter_options_Section .filter-options-area .filter-option-choice .nav.nav-tabs .nav-item button {
+  width: 100%;
+  font-weight: 500;
+  font-size: 25px;
+  color: #4f3e02;
+}
+
+#filter_options_Section .filter-options-area .filter-option-choice .nav.nav-tabs .nav-item button.active {
+  background: #c59a2a !important;
+}
+
+#filter_options_Section .filter-options-area #filter-tabs-content {
+  padding-bottom: 2rem;
+}
+
+#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: wrap row;
+          flex-flow: wrap row;
+  gap: 40px 20px;
+  padding: 20px;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-bottom: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel {
+  width: 260px;
+  height: 49px;
+  display: inline-table;
+}
+
+#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input {
+  background: #f6ebcc;
+  border: 4px solid #ffdd80;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 13px;
+}
+
+#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffc839;
+}
+
+#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input:-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffc839;
+}
+
+#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input::-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffc839;
+}
+
+#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input::placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffc839;
+}
+
+#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel label {
+  font-size: 16px;
+  color: #4f3e02;
+  font-weight: 500;
+}
+
+#filter_options_Section .filter-options-area #filter-tabs-content h6 span {
+  color: #ffba06;
+}
+
+#product-card-section {
+  margin: 1rem auto 5rem auto;
+}
+
+#product-card-section .all-product-card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 60px 20px;
+}
+
+#product-card-section .all-product-card .Product-card {
+  background: #f9f2dd;
+  border: 4px solid rgba(197, 154, 42, 0.5);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -3px 12px 31px 2px rgba(29, 59, 118, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -3px 12px 31px 2px rgba(29, 59, 118, 0.25);
+  border-radius: 23px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#product-card-section .all-product-card .Product-card:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.281), -3px 12px 31px 2px rgba(29, 59, 118, 0.363);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.281), -3px 12px 31px 2px rgba(29, 59, 118, 0.363);
+}
+
+#product-card-section .all-product-card .Product-card .product-thumnail-wrapper {
+  position: relative;
+  width: 100%;
+  height: 227px;
+  z-index: 1;
+}
+
+#product-card-section .all-product-card .Product-card .product-thumnail-wrapper::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: table;
+  background: linear-gradient(359.14deg, #ffd66c 0.67%, rgba(227, 204, 139, 0) 46.03%, rgba(196, 196, 196, 0) 97.64%);
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+}
+
+#product-card-section .all-product-card .Product-card .product-thumnail-wrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#product-card-section .all-product-card .Product-card .product-desc {
+  color: #4f3e02;
+  padding: 20px;
+}
+
+#product-card-section .all-product-card .Product-card .product-desc h1, #product-card-section .all-product-card .Product-card .product-desc h2, #product-card-section .all-product-card .Product-card .product-desc h4, #product-card-section .all-product-card .Product-card .product-desc h5, #product-card-section .all-product-card .Product-card .product-desc h6, #product-card-section .all-product-card .Product-card .product-desc h3 {
+  color: #4f3e02;
+}
+
+#product-card-section .all-product-card .Product-card .product-desc h1 span, #product-card-section .all-product-card .Product-card .product-desc h2 span, #product-card-section .all-product-card .Product-card .product-desc h4 span, #product-card-section .all-product-card .Product-card .product-desc h5 span, #product-card-section .all-product-card .Product-card .product-desc h6 span, #product-card-section .all-product-card .Product-card .product-desc h3 span {
+  color: #c59a2a;
+}
+
+.theme-text {
+  color: #4f3e02;
+}
+
+.theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
+#FAQ-page-css .faqs-section .top-box button {
+  background: #ffd66c;
+  border: none;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
+#FAQ-page-css .faqs-section .top-box button:hover {
+  background: #d29700;
+  color: #fff;
+}
+
+.theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20, #FAQ-page-css .faqs-section .top-box input.round-20,
+#FAQ-page-css .faqs-section .top-box button.round-20 {
+  border-radius: 20px;
+}
+
+.theme-gd {
+  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+}
+
+.title-text {
+  color: #4f3e02;
+}
+
+.title-text.underline {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+.title-text.underline::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  border-radius: 20px;
+  background: #b28c05;
+  bottom: -20px;
+  left: 0px;
+}
+
+.theme-soft-bg {
+  background: #f6ebcc;
+}
+
+.theme-soft-bg:focus {
+  background: #f6ebcc;
+}
+
+#FAQ-page-css {
+  /* basic setup */
+  /* basic setup */
+  /* .arrow-btn .button */
+}
+
+#FAQ-page-css * {
+  margin: 0;
+  padding: 0;
+}
+
+#FAQ-page-css .faqs-section {
+  padding: 100px 0;
+}
+
+#FAQ-page-css .faqs-section .faq-boxes,
+#FAQ-page-css .faqs-section .top-box {
+  width: 80%;
+  margin: auto;
+}
+
+#FAQ-page-css .faqs-section .top-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffd058), to(#9b7921));
+  background: linear-gradient(#ffd058, #9b7921);
+  border-radius: 55px;
+}
+
+#FAQ-page-css .faqs-section .top-box input {
+  background: #f6ebcc;
+  border: 4px solid #ffd66c;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 13px;
+  width: 200px;
+}
+
+#FAQ-page-css .faqs-section .top-box input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffc839;
+}
+
+#FAQ-page-css .faqs-section .top-box input:-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffc839;
+}
+
+#FAQ-page-css .faqs-section .top-box input::-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffc839;
+}
+
+#FAQ-page-css .faqs-section .top-box input::placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffc839;
+}
+
+#FAQ-page-css .faqs-section .top-box label {
+  color: #fff;
+}
+
+#FAQ-page-css .faqs-section .top-box button {
+  background: #fff;
+  -webkit-box-shadow: 0px 3px 2px black;
+          box-shadow: 0px 3px 2px black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#FAQ-page-css .faqs-section .top-box button:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#FAQ-page-css .faqs-section .faq-boxes .top-title {
+  padding: 25px;
+  text-align: center;
+  color: #ffd66c;
+  font-size: 26px;
+}
+
+#FAQ-page-css .faqs-section .faq-boxes .top-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  margin: 10px auto;
+  background: rgba(197, 154, 42, 0.6);
+}
+
+#FAQ-page-css .faqs-section .faq-boxes .faq-box {
+  padding: 15px 30px;
+  width: 100%;
+  background: #ffd66c;
+  color: #fff;
+  margin-bottom: 30px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-radius: 45px;
+}
+
+#FAQ-page-css .faq-box .question-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#FAQ-page-css .faq-box .question-box .question {
+  margin-right: 20px;
+}
+
+#FAQ-page-css .faqs-section .faq-boxes .faq-box .description {
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+#FAQ-page-css .d-nai {
+  display: none;
+}
+
+#FAQ-page-css .arrow-btn .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 16px;
+  border-radius: 15px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  background: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#FAQ-page-css .arrow-btn .button:hover {
+  background: rgba(255, 255, 255, 0.7);
+  color: #c59a2a;
+}
+
+#FAQ-page-css .arrow-btn .button:active {
+  background: white;
+}
+
+#profile-update-page-css {
+  /* basic setup*/
+  /* the form side css start here */
+}
+
+#profile-update-page-css .top-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#profile-update-page-css .top-section .img-side {
+  text-align: center;
+  height: 100vh;
+  width: 30%;
+  padding: 100px 50px;
+  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+}
+
+#profile-update-page-css .img-side .img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+
+#profile-update-page-css .img-side .img img {
+  width: 100%;
+}
+
+#profile-update-page-css .top-section .img-side .contents {
+  color: #fff;
+}
+
+#profile-update-page-css .top-section .img-side .contents h1 {
+  margin-top: 25px;
+}
+
+#profile-update-page-css .top-section .img-side .contents h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 5px;
+  margin: 12px auto;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#profile-update-page-css .top-section .img-side .contents p {
+  font-size: 20px;
+}
+
+#profile-update-page-css .top-section .img-side .contents i {
+  margin-right: 12px;
+}
+
+#profile-update-page-css .top-section .form-side {
+  width: 70%;
+  padding: 15px;
+}
+
+#profile-update-page-css .top-section .form-side .changer-form {
+  margin-bottom: 15px;
+}
+
+#profile-update-page-css .top-section .form-side .changer-form .the-title-of-form {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+  color: #fff;
+}
+
+#profile-update-page-css .top-section .form-side .changer-form .all-inputs {
+  padding: 8px 15px;
+  border: 0.2px solid #b4b0b0;
+}
+
+#profile-update-page-css .top-section .form-side .changer-form .all-inputs input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #646060;
+  padding: 8px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+#profile-update-page-css .top-section .form-side .changer-form .all-inputs input:last-child {
+  margin-bottom: 0;
+}
+
+#profile-update-page-css .top-section .form-side .changer-form .all-inputs input[type="submit"] {
+  width: 150px;
+  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+  margin-top: 15px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  #profile-update-page-css .top-section .form-side,
+  #profile-update-page-css .top-section .img-side {
+    width: 100%;
+  }
+  #profile-update-page-css .top-section .img-side {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
