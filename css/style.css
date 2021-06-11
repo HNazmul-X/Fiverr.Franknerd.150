@@ -6,7 +6,7 @@
 }
 
 .theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
-#FAQ-page-css .faqs-section .top-box button {
+#FAQ-page-css .faqs-section .top-box button, #listing-card-page .listingCard > div.title-and-content .show-details-btn {
   background: #ffd66c;
   border: none;
   padding: 10px 25px;
@@ -18,13 +18,13 @@
 }
 
 .theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
-#FAQ-page-css .faqs-section .top-box button:hover {
+#FAQ-page-css .faqs-section .top-box button:hover, #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover {
   background: #d29700;
   color: #fff;
 }
 
 .theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20, #FAQ-page-css .faqs-section .top-box input.round-20,
-#FAQ-page-css .faqs-section .top-box button.round-20 {
+#FAQ-page-css .faqs-section .top-box button.round-20, #listing-card-page .listingCard > div.title-and-content .round-20.show-details-btn {
   border-radius: 20px;
 }
 
@@ -62,34 +62,12 @@
   background: #f6ebcc;
 }
 
-* {
-  font-family: "poppins", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-button {
-  margin-bottom: 0px !important;
-}
-
-.HNAZMUL__WSLWC_NAV-brand img {
-  width: 140px;
-  padding: 10px;
-  background: #ffd66c;
-}
-
 .theme-text {
   color: #4f3e02;
 }
 
 .theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
-#FAQ-page-css .faqs-section .top-box button {
+#FAQ-page-css .faqs-section .top-box button, #listing-card-page .listingCard > div.title-and-content .show-details-btn {
   background: #ffd66c;
   border: none;
   padding: 10px 25px;
@@ -101,13 +79,13 @@ button {
 }
 
 .theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
-#FAQ-page-css .faqs-section .top-box button:hover {
+#FAQ-page-css .faqs-section .top-box button:hover, #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover {
   background: #d29700;
   color: #fff;
 }
 
 .theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20, #FAQ-page-css .faqs-section .top-box input.round-20,
-#FAQ-page-css .faqs-section .top-box button.round-20 {
+#FAQ-page-css .faqs-section .top-box button.round-20, #listing-card-page .listingCard > div.title-and-content .round-20.show-details-btn {
   border-radius: 20px;
 }
 
@@ -299,7 +277,7 @@ button {
 }
 
 .theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
-#FAQ-page-css .faqs-section .top-box button {
+#FAQ-page-css .faqs-section .top-box button, #listing-card-page .listingCard > div.title-and-content .show-details-btn {
   background: #ffd66c;
   border: none;
   padding: 10px 25px;
@@ -311,13 +289,13 @@ button {
 }
 
 .theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
-#FAQ-page-css .faqs-section .top-box button:hover {
+#FAQ-page-css .faqs-section .top-box button:hover, #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover {
   background: #d29700;
   color: #fff;
 }
 
 .theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20, #FAQ-page-css .faqs-section .top-box input.round-20,
-#FAQ-page-css .faqs-section .top-box button.round-20 {
+#FAQ-page-css .faqs-section .top-box button.round-20, #listing-card-page .listingCard > div.title-and-content .round-20.show-details-btn {
   border-radius: 20px;
 }
 
@@ -599,7 +577,7 @@ button {
 }
 
 .theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
-#FAQ-page-css .faqs-section .top-box button {
+#FAQ-page-css .faqs-section .top-box button, #listing-card-page .listingCard > div.title-and-content .show-details-btn {
   background: #ffd66c;
   border: none;
   padding: 10px 25px;
@@ -611,13 +589,13 @@ button {
 }
 
 .theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
-#FAQ-page-css .faqs-section .top-box button:hover {
+#FAQ-page-css .faqs-section .top-box button:hover, #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover {
   background: #d29700;
   color: #fff;
 }
 
 .theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20, #FAQ-page-css .faqs-section .top-box input.round-20,
-#FAQ-page-css .faqs-section .top-box button.round-20 {
+#FAQ-page-css .faqs-section .top-box button.round-20, #listing-card-page .listingCard > div.title-and-content .round-20.show-details-btn {
   border-radius: 20px;
 }
 
@@ -732,7 +710,7 @@ button {
 }
 
 .theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
-#FAQ-page-css .faqs-section .top-box button {
+#FAQ-page-css .faqs-section .top-box button, #listing-card-page .listingCard > div.title-and-content .show-details-btn {
   background: #ffd66c;
   border: none;
   padding: 10px 25px;
@@ -744,13 +722,13 @@ button {
 }
 
 .theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
-#FAQ-page-css .faqs-section .top-box button:hover {
+#FAQ-page-css .faqs-section .top-box button:hover, #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover {
   background: #d29700;
   color: #fff;
 }
 
 .theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20, #FAQ-page-css .faqs-section .top-box input.round-20,
-#FAQ-page-css .faqs-section .top-box button.round-20 {
+#FAQ-page-css .faqs-section .top-box button.round-20, #listing-card-page .listingCard > div.title-and-content .round-20.show-details-btn {
   border-radius: 20px;
 }
 
@@ -861,7 +839,7 @@ button {
 
 #filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input {
   background: #f6ebcc;
-  border: 4px solid #ffdd80;
+  border: 4px solid #ffd66c;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 13px;
@@ -975,7 +953,7 @@ button {
 }
 
 .theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
-#FAQ-page-css .faqs-section .top-box button {
+#FAQ-page-css .faqs-section .top-box button, #listing-card-page .listingCard > div.title-and-content .show-details-btn {
   background: #ffd66c;
   border: none;
   padding: 10px 25px;
@@ -987,13 +965,13 @@ button {
 }
 
 .theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
-#FAQ-page-css .faqs-section .top-box button:hover {
+#FAQ-page-css .faqs-section .top-box button:hover, #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover {
   background: #d29700;
   color: #fff;
 }
 
 .theme-btn.round-20, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup .the-form .buttons button.round-20, #FAQ-page-css .faqs-section .top-box input.round-20,
-#FAQ-page-css .faqs-section .top-box button.round-20 {
+#FAQ-page-css .faqs-section .top-box button.round-20, #listing-card-page .listingCard > div.title-and-content .round-20.show-details-btn {
   border-radius: 20px;
 }
 
@@ -1061,10 +1039,13 @@ button {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  padding: 50px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffd058), to(#9b7921));
-  background: linear-gradient(#ffd058, #9b7921);
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  padding: 20px;
+  padding-bottom: 40px;
+  background: linear-gradient(175deg, #ffd058, #9b7921);
   border-radius: 55px;
+  font-size: 20px;
 }
 
 #FAQ-page-css .faqs-section .top-box input {
@@ -1079,37 +1060,39 @@ button {
 #FAQ-page-css .faqs-section .top-box input::-webkit-input-placeholder {
   font-size: 14px;
   font-weight: 500;
-  color: #ffc839;
+  color: #9b7921;
 }
 
 #FAQ-page-css .faqs-section .top-box input:-ms-input-placeholder {
   font-size: 14px;
   font-weight: 500;
-  color: #ffc839;
+  color: #9b7921;
 }
 
 #FAQ-page-css .faqs-section .top-box input::-ms-input-placeholder {
   font-size: 14px;
   font-weight: 500;
-  color: #ffc839;
+  color: #9b7921;
 }
 
 #FAQ-page-css .faqs-section .top-box input::placeholder {
   font-size: 14px;
   font-weight: 500;
-  color: #ffc839;
+  color: #9b7921;
+}
+
+#FAQ-page-css .faqs-section .top-box input:active, #FAQ-page-css .faqs-section .top-box input:focus {
+  outline: none;
 }
 
 #FAQ-page-css .faqs-section .top-box label {
   color: #fff;
 }
 
-#FAQ-page-css .faqs-section .top-box button {
-  background: #fff;
-  -webkit-box-shadow: 0px 3px 2px black;
-          box-shadow: 0px 3px 2px black;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+#FAQ-page-css .faqs-section .top-box input:active, #FAQ-page-css .faqs-section .top-box input:focus,
+#FAQ-page-css .faqs-section .top-box button:active,
+#FAQ-page-css .faqs-section .top-box button:focus {
+  outline: none;
 }
 
 #FAQ-page-css .faqs-section .top-box button:active {
@@ -1120,7 +1103,7 @@ button {
 #FAQ-page-css .faqs-section .faq-boxes .top-title {
   padding: 25px;
   text-align: center;
-  color: #ffd66c;
+  color: #9b7921;
   font-size: 26px;
 }
 
@@ -1130,13 +1113,13 @@ button {
   width: 60px;
   height: 5px;
   margin: 10px auto;
-  background: rgba(197, 154, 42, 0.6);
+  background: #c59a2a;
 }
 
 #FAQ-page-css .faqs-section .faq-boxes .faq-box {
   padding: 15px 30px;
   width: 100%;
-  background: #ffd66c;
+  background: #b08a26;
   color: #fff;
   margin-bottom: 30px;
   -webkit-transition: 1s;
@@ -1162,13 +1145,25 @@ button {
   margin-right: 20px;
 }
 
-#FAQ-page-css .faqs-section .faq-boxes .faq-box .description {
-  font-size: 18px;
-  padding: 20px 0;
+#FAQ-page-css .faq-box .question-box .question h4 {
+  font-size: 20px;
 }
 
-#FAQ-page-css .d-nai {
-  display: none;
+#FAQ-page-css .faqs-section .faq-boxes .faq-box .description {
+  font-size: 20px;
+  padding: 20px 0;
+  width: 100%;
+  height: auto;
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+}
+
+#FAQ-page-css .faqs-section .faq-boxes .faq-box .description.d-nai {
+  height: 0px;
+  overflow: hidden;
+  padding: 0px;
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
 }
 
 #FAQ-page-css .arrow-btn .button {
@@ -1193,7 +1188,7 @@ button {
 }
 
 #FAQ-page-css .arrow-btn .button:active {
-  background: white;
+  background: #fff;
 }
 
 #profile-update-page-css {
@@ -1304,5 +1299,419 @@ button {
   #profile-update-page-css .top-section .img-side {
     text-align: center;
   }
+}
+
+#listing-card-page .theme-text {
+  color: #4f3e02;
+}
+
+#listing-card-page .theme-btn, #listing-card-page #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup header.contact-form-header .the-form-and-img .the-form #listing-card-page input[type="submit"], #listing-card-page #cotact-login-signup .the-form .buttons button, #cotact-login-signup .the-form .buttons #listing-card-page button, #listing-card-page #FAQ-page-css .faqs-section .top-box input, #FAQ-page-css .faqs-section .top-box #listing-card-page input,
+#listing-card-page #FAQ-page-css .faqs-section .top-box button, #FAQ-page-css .faqs-section .top-box #listing-card-page button, #listing-card-page .listingCard > div.title-and-content .show-details-btn {
+  background: #ffd66c;
+  border: none;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#listing-card-page .theme-btn:hover, #listing-card-page #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup header.contact-form-header .the-form-and-img .the-form #listing-card-page input:hover[type="submit"], #listing-card-page #cotact-login-signup .the-form .buttons button:hover, #cotact-login-signup .the-form .buttons #listing-card-page button:hover, #listing-card-page #FAQ-page-css .faqs-section .top-box input:hover, #FAQ-page-css .faqs-section .top-box #listing-card-page input:hover,
+#listing-card-page #FAQ-page-css .faqs-section .top-box button:hover, #FAQ-page-css .faqs-section .top-box #listing-card-page button:hover, #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover {
+  background: #d29700;
+  color: #fff;
+}
+
+#listing-card-page .theme-btn.round-20, #listing-card-page #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup header.contact-form-header .the-form-and-img .the-form #listing-card-page input.round-20[type="submit"], #listing-card-page #cotact-login-signup .the-form .buttons button.round-20, #cotact-login-signup .the-form .buttons #listing-card-page button.round-20, #listing-card-page #FAQ-page-css .faqs-section .top-box input.round-20, #FAQ-page-css .faqs-section .top-box #listing-card-page input.round-20,
+#listing-card-page #FAQ-page-css .faqs-section .top-box button.round-20, #FAQ-page-css .faqs-section .top-box #listing-card-page button.round-20, #listing-card-page .listingCard > div.title-and-content .round-20.show-details-btn {
+  border-radius: 20px;
+}
+
+#listing-card-page .theme-gd {
+  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+}
+
+#listing-card-page .title-text {
+  color: #4f3e02;
+}
+
+#listing-card-page .title-text.underline {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+#listing-card-page .title-text.underline::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  border-radius: 20px;
+  background: #b28c05;
+  bottom: -20px;
+  left: 0px;
+}
+
+#listing-card-page .theme-soft-bg {
+  background: #f6ebcc;
+}
+
+#listing-card-page .theme-soft-bg:focus {
+  background: #f6ebcc;
+}
+
+#listing-card-page header#header {
+  background: linear-gradient(263.21deg, #ffc101 4.26%, #ffc100 40.27%, #d6af4b 40.28%, #d3aa41 93.08%);
+  padding: 5rem;
+  margin-top: 50px;
+}
+
+#listing-card-page header#header h1 {
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 59px;
+}
+
+#listing-card-page #listing-product-panel {
+  width: 100%;
+  background: #fbf6e8;
+  height: 700px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 676px) {
+  #listing-card-page #listing-product-panel {
+    height: auto;
+  }
+}
+
+#listing-card-page #listing-product-panel > .wrapper {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[24];
+      grid-template-columns: repeat(24, 1fr);
+}
+
+#listing-card-page #listing-product-panel > .wrapper .sitebar {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1 / span 5;
+  background: #4f3e02;
+}
+
+#listing-card-page #listing-product-panel > .wrapper .sitebar > .wrapper {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+#listing-card-page #listing-product-panel > .wrapper .sitebar > .wrapper .tabs {
+  padding: 0px;
+}
+
+#listing-card-page #listing-product-panel > .wrapper .sitebar > .wrapper .tabs li {
+  list-style: none;
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 30px;
+  text-align: center;
+  background: #f6ebcc;
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 676px) {
+  #listing-card-page #listing-product-panel > .wrapper .sitebar {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 24;
+    grid-column: 1 / span 24;
+  }
+}
+
+#listing-card-page #listing-product-panel > .wrapper .content {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 24;
+  grid-column: 7 / span 24;
+  padding: 20px;
+}
+
+#listing-card-page #listing-product-panel > .wrapper .content > .wrapper {
+  height: 630px;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 676px) {
+  #listing-card-page #listing-product-panel > .wrapper .content > .wrapper {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  #listing-card-page #listing-product-panel > .wrapper .content {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 24;
+    grid-column: 1 / span 24;
+    padding: 5px;
+  }
+  #listing-card-page #listing-product-panel > .wrapper .content > .wrapper {
+    height: auto;
+  }
+}
+
+#listing-card-page .vertical-center, #listing-card-page .listingCard > div.seriel-number, #listing-card-page .listingCard > div.title-and-content, #listing-card-page .listingCard > div.status, #listing-card-page .listingCard > div.save-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#listing-card-page .listingCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid rgba(79, 62, 2, 0.24);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+}
+
+#listing-card-page .listingCard > div.seriel-number {
+  width: 10%;
+  background: #c59a2a;
+}
+
+#listing-card-page .listingCard > div.seriel-number h1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+#listing-card-page .listingCard > div.title-and-content {
+  width: 52%;
+  padding: 10px;
+}
+
+#listing-card-page .listingCard > div.title-and-content.locked {
+  position: relative;
+  z-index: 1;
+}
+
+#listing-card-page .listingCard > div.title-and-content.locked .locker-area {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  position: absolute;
+  left: 0px;
+}
+
+#listing-card-page .listingCard > div.title-and-content.locked .locker-area h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+#listing-card-page .listingCard > div.title-and-content .title-and-date {
+  margin-bottom: 5px;
+}
+
+#listing-card-page .listingCard > div.title-and-content .title-and-date h3,
+#listing-card-page .listingCard > div.title-and-content .title-and-date i {
+  color: #4f3e02;
+}
+
+#listing-card-page .listingCard > div.title-and-content .products-rates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5px;
+  width: 95%;
+}
+
+#listing-card-page .listingCard > div.title-and-content .products-rates h6 {
+  color: #c59a2a;
+}
+
+#listing-card-page .listingCard > div.title-and-content .products-rates h6 span {
+  color: #4f3e02;
+}
+
+#listing-card-page .listingCard > div.title-and-content .show-details-btn {
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#listing-card-page .listingCard > div.status {
+  width: 10%;
+}
+
+#listing-card-page .listingCard > div.status.plus {
+  background: rgba(0, 104, 0, 0.1);
+}
+
+#listing-card-page .listingCard > div.status.plus h4 {
+  color: green;
+}
+
+#listing-card-page .listingCard > div.status.minus {
+  background: rgba(146, 1, 1, 0.1);
+}
+
+#listing-card-page .listingCard > div.status.minus h4 {
+  color: #920101;
+}
+
+#listing-card-page .listingCard > div.save-btn {
+  width: 10%;
+  background: rgba(255, 155, 155, 0.1);
+}
+
+#listing-card-page .listingCard > div.save-btn h4 .iconify {
+  color: red;
+  cursor: pointer;
+}
+
+#listing-card-page .listingCard > div.img {
+  width: 18%;
+}
+
+#listing-card-page .listingCard > div.img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+@media screen and (max-width: 676px) {
+  #listing-card-page .listingCard {
+    height: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[12];
+        grid-template-columns: repeat(12, 1fr);
+    -ms-grid-rows: (50px)[6];
+        grid-template-rows: repeat(6, 50px);
+  }
+  #listing-card-page .listingCard > div.seriel-number {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 12;
+    grid-column: 1 / 13;
+    width: 100%;
+  }
+  #listing-card-page .listingCard > div.title-and-content {
+    width: 100%;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 3;
+    grid-row: 2 /  5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 12;
+    grid-column: 1 / 13;
+    width: 100%;
+  }
+  #listing-card-page .listingCard > div.title-and-content .title-and-date h3 {
+    font-size: 16px;
+  }
+  #listing-card-page .listingCard > div.title-and-content .title-and-date i {
+    font-size: 12px;
+  }
+  #listing-card-page .listingCard > div.title-and-content .products-rates {
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+  }
+  #listing-card-page .listingCard > div.title-and-content .products-rates h6 {
+    font-size: 12px;
+    width: 50%;
+  }
+  #listing-card-page .listingCard > div.status {
+    width: 100%;
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 2;
+    grid-row: 5 / 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-column: 1 /  5;
+    position: relative;
+    z-index: 2;
+  }
+  #listing-card-page .listingCard > div.save-btn {
+    width: 100%;
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 2;
+    grid-row: 5 / 7;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 3;
+    grid-column: 5 /  8;
+    position: relative;
+    z-index: 2;
+  }
+  #listing-card-page .listingCard > div.img {
+    width: 100%;
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 3;
+    grid-row: 4 / 7;
+    -ms-grid-column: 8;
+    -ms-grid-column-span: 5;
+    grid-column: 8 /  13;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+* {
+  font-family: "poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+  margin-bottom: 0px !important;
+}
+
+.HNAZMUL__WSLWC_NAV-brand img {
+  width: 140px;
+  padding: 10px;
+  background: #ffd66c;
 }
 /*# sourceMappingURL=style.css.map */

@@ -23,3 +23,29 @@ WSLWCNavbarToggleIcon?.addEventListener("click", () => {
 WSLWCNavbarCanceler?.addEventListener("click", () => {
     WSLWCTogglingNavbar();
 });
+
+//
+const theButton = document.querySelectorAll("#FAQ-page-css .arrow-btn .button ");
+const allDescripton = document.querySelectorAll("#FAQ-page-css .faqs-section .faq-boxes .faq-box .description");
+
+if (theButton) {
+    let toogled = null; 
+    theButton.forEach(function (x, index) {
+        x.addEventListener("click", function () {
+            if (toogled !== index ) {
+                allDescripton.forEach((desc) => {
+                    desc.classList.add("d-nai");
+                });
+            }
+            allDescripton[index].classList.toggle("d-nai");
+            toogled = index;
+        }); 
+    });
+}
+
+
+
+
+const Listing
+
+/*  */
