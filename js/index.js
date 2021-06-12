@@ -44,8 +44,4 @@ if (theButton) {
 }
 
 
-
-
-const Listing
-
 /*  */

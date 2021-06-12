@@ -88,7 +88,7 @@
                     margin: 0px;
                     padding: 0px;
                     width: 100%;
-                    background: rgb(255, 170, 170);
+                    background:lighten($color: $primary-color-dark, $amount: 20);
                     height: 100vh;
                     overflow-y: auto;
                     direction: rtl;

@@ -235,7 +235,7 @@
     margin: 0px;
     padding: 0px;
     width: 100%;
-    background: #ffaaaa;
+    background: #b28c05;
     height: 100vh;
     overflow-y: auto;
     direction: rtl;
@@ -889,6 +889,20 @@
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   gap: 60px 20px;
+}
+
+@media screen and (max-width: 980px) {
+  #product-card-section .all-product-card {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #product-card-section .all-product-card {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 #product-card-section .all-product-card .Product-card {
@@ -1776,7 +1790,7 @@
   margin: auto;
 }
 
-#product-details #product-details-section .product-details-container h1, #product-details #product-details-section .product-details-container h2, #product-details #product-details-section .product-details-container h3, #product-details #product-details-section .product-details-container h4, #product-details #product-details-section .product-details-container h5, #product-details #product-details-section .product-details-container h6, #product-details #product-details-section .product-details-container button, #product-details #product-details-section .product-details-container p {
+#product-details #product-details-section .product-details-container h1, #product-details #product-details-section .product-details-container h2, #product-details #product-details-section .product-details-container h3, #product-details #product-details-section .product-details-container h4, #product-details #product-details-section .product-details-container h5, #product-details #product-details-section .product-details-container h6, #product-details #product-details-section .product-details-container p {
   color: dimgray;
   font-weight: normal;
 }
@@ -1792,6 +1806,18 @@
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+#product-details #product-details-section .product-details-container .product-all-description .title-date-catagory .pd-title {
+  color: #4f3e02;
+  font-weight: 500;
+}
+
+#product-details #product-details-section .product-details-container .product-all-description .title-date-catagory .buttons button {
+  background: #ffd66c;
+  margin: 5px;
+  border-radius: 40px;
+  color: #4f3e02;
 }
 
 #product-details #product-details-section .product-details-container .product-all-description .cost .price {
@@ -1811,6 +1837,13 @@
   width: 32%;
   text-align: center;
   font-size: 14px;
+  color: #4f3e02;
+  font-weight: 500;
+}
+
+#product-details #product-details-section .product-details-container .product-all-description .cost .price h5 span {
+  color: dimgray;
+  font-weight: normal;
 }
 
 * {
