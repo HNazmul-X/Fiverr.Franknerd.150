@@ -1693,6 +1693,126 @@
   }
 }
 
+#product-details .theme-text {
+  color: #4f3e02;
+}
+
+#product-details .theme-btn, #product-details #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup header.contact-form-header .the-form-and-img .the-form #product-details input[type="submit"], #product-details #cotact-login-signup .the-form .buttons button, #cotact-login-signup .the-form .buttons #product-details button, #product-details #FAQ-page-css .faqs-section .top-box input, #FAQ-page-css .faqs-section .top-box #product-details input,
+#product-details #FAQ-page-css .faqs-section .top-box button, #FAQ-page-css .faqs-section .top-box #product-details button, #product-details #listing-card-page .listingCard > div.title-and-content .show-details-btn, #listing-card-page .listingCard > div.title-and-content #product-details .show-details-btn {
+  background: #ffd66c;
+  border: none;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#product-details .theme-btn:hover, #product-details #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup header.contact-form-header .the-form-and-img .the-form #product-details input:hover[type="submit"], #product-details #cotact-login-signup .the-form .buttons button:hover, #cotact-login-signup .the-form .buttons #product-details button:hover, #product-details #FAQ-page-css .faqs-section .top-box input:hover, #FAQ-page-css .faqs-section .top-box #product-details input:hover,
+#product-details #FAQ-page-css .faqs-section .top-box button:hover, #FAQ-page-css .faqs-section .top-box #product-details button:hover, #product-details #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover, #listing-card-page .listingCard > div.title-and-content #product-details .show-details-btn:hover {
+  background: #d29700;
+  color: #fff;
+}
+
+#product-details .theme-btn.round-20, #product-details #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input.round-20[type="submit"], #cotact-login-signup header.contact-form-header .the-form-and-img .the-form #product-details input.round-20[type="submit"], #product-details #cotact-login-signup .the-form .buttons button.round-20, #cotact-login-signup .the-form .buttons #product-details button.round-20, #product-details #FAQ-page-css .faqs-section .top-box input.round-20, #FAQ-page-css .faqs-section .top-box #product-details input.round-20,
+#product-details #FAQ-page-css .faqs-section .top-box button.round-20, #FAQ-page-css .faqs-section .top-box #product-details button.round-20, #product-details #listing-card-page .listingCard > div.title-and-content .round-20.show-details-btn, #listing-card-page .listingCard > div.title-and-content #product-details .round-20.show-details-btn {
+  border-radius: 20px;
+}
+
+#product-details .theme-gd {
+  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+}
+
+#product-details .title-text {
+  color: #4f3e02;
+}
+
+#product-details .title-text.underline {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+#product-details .title-text.underline::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  border-radius: 20px;
+  background: #b28c05;
+  bottom: -20px;
+  left: 0px;
+}
+
+#product-details .theme-soft-bg {
+  background: #f6ebcc;
+}
+
+#product-details .theme-soft-bg:focus {
+  background: #f6ebcc;
+}
+
+#product-details #header-section {
+  background: linear-gradient(263.21deg, #ffc101 4.26%, #efb70b 14.34%, #deaa09 48.48%, #bf952a 75.32%, #a3790e 93.08%);
+  padding: 5rem;
+}
+
+#product-details #header-section h1 {
+  font-weight: bold;
+  font-size: 59px;
+  color: #4F3E02;
+  text-align: center;
+}
+
+#product-details #product-details-section {
+  margin-bottom: 3rem;
+}
+
+#product-details #product-details-section .product-details-container {
+  max-width: 1240px;
+  padding: 20px;
+  margin: auto;
+}
+
+#product-details #product-details-section .product-details-container h1, #product-details #product-details-section .product-details-container h2, #product-details #product-details-section .product-details-container h3, #product-details #product-details-section .product-details-container h4, #product-details #product-details-section .product-details-container h5, #product-details #product-details-section .product-details-container h6, #product-details #product-details-section .product-details-container button, #product-details #product-details-section .product-details-container p {
+  color: dimgray;
+  font-weight: normal;
+}
+
+#product-details #product-details-section .product-details-container .product-lg-image {
+  text-align: center;
+  height: 400px;
+  border: 2px solid #00000042 !important;
+}
+
+#product-details #product-details-section .product-details-container .product-lg-image img {
+  width: 400px;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#product-details #product-details-section .product-details-container .product-all-description .cost .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px auto;
+}
+
+#product-details #product-details-section .product-details-container .product-all-description .cost .price h5 {
+  width: 32%;
+  text-align: center;
+  font-size: 14px;
+}
+
 * {
   font-family: "poppins", sans-serif;
 }

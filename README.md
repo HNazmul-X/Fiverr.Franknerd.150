@@ -1,6 +1,6 @@
 ### This is a Front end Repo. Here are about 10 pages
 
-### ***here are all pages link***
+### **_here are all pages link_**
 
 <ol>
  <li> <em><a href="https://fiverr-franknerd-150.netlify.app/">Home Page </a> </em> </li>
@@ -12,6 +12,6 @@
  <li> <em><a href="https://fiverr-franknerd-150.netlify.app/pages/trainingpage">Profile Page</a> </em> </li>
  <li> <em><a href="https://fiverr-franknerd-150.netlify.app/pages/contact.html">Contact Us Page</a> </em> </li>
  <li> <em><a href="https://fiverr-franknerd-150.netlify.app/pages/winning-product">Winning Product card Page</a> </em> </li>
+ <li> <em><a href="https://fiverr-franknerd-150.netlify.app/pages/ProductDetails.html">Product Details Page</a> </em> </li>
 
-    
 </ol>
