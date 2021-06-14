@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
         <link rel="stylesheet" href="../css/bootstrap.min.css" />
         <link rel="stylesheet" href="../css/style.css" />
@@ -21,67 +22,132 @@
                 </div>
                 <div class="HNAZMUL__WSLWC_NAV-items-wrapper">
                     <ul class="list-items-area">
-                        <li class="nav-item"><a href="#" class="nav-links">Home</a></li>
+                        <li class="nav-item"><a href="../index.html" class="nav-links">Home</a></li>
                         <li class="nav-item"><a href="#" class="nav-links">Affiliate</a></li>
-                        <li class="nav-item"><a href="#" class="nav-links">FAQs</a></li>
-                        <li class="nav-item"><a href="#" class="nav-links">Training</a></li>
-                        <li class="nav-item"><a href="#" class="nav-links">Contact US</a></li>
-                        <li class="nav-item"><a href="#" class="nav-links">Saved</a></li>
-                        <li class="nav-item"><a href="#" class="nav-links">Profile</a></li>
-                        <li class="nav-item"><a href="#" class="nav-links">Sign Out</a></li>
+                        <li class="nav-item"><a href="faqs.html" class="nav-links">FAQs</a></li>
+                        <li class="nav-item"><a href="training.html" class="nav-links">Training</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-links">Contact US</a></li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-links"><span class="iconify" data-icon="cil:heart" data-inline="false"></span> Saved</a>
+                        </li>
+                        <li class="nav-item"><a href="profile.html" class="nav-links">Profile</a></li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-links"><span class="iconify" data-icon="akar-icons:sign-out" data-inline="false"></span> Sign Out</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="p-4"></div>
-
-        <header id="header-section">
-            <h1>Product Detials</h1>
-        </header>
-
-
-
+        <div class="p-5"></div>
 
         <section id="product-details-section">
-
             <div class="product-details-container">
                 <div class="row">
-                    <div class="col-lg-6 product-lg-image border ">
-                        <img  class="img-fluid" src="https://image.made-in-china.com/202f0j00vqDYHoksfKbl/Nice-Mixed-Color-Basketball-Shoes-High-Top-Wear-Resistant-Professional-Men-and-Women-Sports-Shoes-Street-Basketball-Sneakers.jpg" alt="">
+                    <div class="col-lg-5 product-lg-image border">
+                        <div class="img-wrapper mb-3">
+                            <img
+                                class="img-fluid"
+                                src="https://image.made-in-china.com/202f0j00vqDYHoksfKbl/Nice-Mixed-Color-Basketball-Shoes-High-Top-Wear-Resistant-Professional-Men-and-Women-Sports-Shoes-Street-Basketball-Sneakers.jpg"
+                                alt=""
+                            />
+                        </div>
+
+                        <div>
+                            <div class="swiper-container mySwiper" id="product-details-small-img-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">Slide 1</div>
+                                    <div class="swiper-slide">Slide 2</div>
+                                    <div class="swiper-slide">Slide 3</div>
+                                    <div class="swiper-slide">Slide 4</div>
+                                    <div class="swiper-slide">Slide 5</div>
+                                    <div class="swiper-slide">Slide 6</div>
+                                    <div class="swiper-slide">Slide 7</div>
+                                    <div class="swiper-slide">Slide 8</div>
+                                    <div class="swiper-slide">Slide 9</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-lg-6 product-all-description">
-                   <div class="title-date-catagory">
-                        <h3 class="pd-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. is? Voluptates est quis facere esse culpa maxime assumenda.</h3>
-                        <h6 class="text-secondary mt-2"><em>13 March 2021</em></h6>
-                        <h4 class="mt-2 buttons"><button class="btn btn-sm">Genarel</button><button class="btn btn-sm">Saving</button></h4>
-                   </div>
+                    <div class="col-lg-7 product-all-description">
+                        <div class="title-date-catagory">
+                            <h3 class="pd-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. is? Voluptates est quis facere esse culpa maxime assumenda.</h3>
+                            <h6 class="text-secondary mt-2"><em>13 March 2021</em></h6>
+                            <h4 class="mt-2 buttons"><button class="btn btn-sm">Genarel</button><button class="btn btn-sm">Saving</button></h4>
+                        </div>
 
-                   <div class="cost mt-4">
-                       <h4 class=" border-bottom pb-3 text-center">Your Total Propit cost</h4>
-                       <div class="price">
-                           <h5>Price: <span>30$</span></h5>
-                           <h5>Product cost: <span> 0.87</span></h5>
-                           <h5>Profit Margin: <span> 0.87</span></h5>
-                       </div>
-                   </div>
-                   <div class="buttons text-center">
-                       <button class="theme-btn round-20 w-75"> Buy Now</button>
-                   </div>
+                        <div class="row analytics-profit-cost mt-4">
+                            <div class="col-6 analytics p-2">
+                                <div class="wrapper">
+                                    <h5>Analytics</h5>
+                                    <div class="trends-sound">
+                                        <div class="box">
+                                            <h1>20.21</h1>
+                                            <h5>CPC</h5>
+                                        </div>
+                                        <div class="box">
+                                            <h1>20.21</h1>
+                                            <h5>Competition</h5>
+                                        </div>
+                                        <div class="box">
+                                            <h1>100K</h1>
+                                            <h5>Volume</h5>
+                                        </div>
+
+                                        <div class="box">
+                                            <h1>100K</h1>
+                                            <h5>Weakly Trends</h5>
+                                        </div>
+                                        <div class="box">
+                                            <h1>100K</h1>
+                                            <h5>Montly Trends</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 analytics profit-cost p-2">
+                                <div class="wrapper">
+                                    <h5>Your Profit Cost</h5>
+                                    <div class="trends-sound">
+                                        <div class="box">
+                                            <h1>20.21</h1>
+                                            <h5>CPC</h5>
+                                        </div>
+                                        <div class="box">
+                                            <h1>20.21</h1>
+                                            <h5>Competition</h5>
+                                        </div>
+                                        <div class="box">
+                                            <h1>100K</h1>
+                                            <h5>Volume</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr style="height: 3px" class="my-3" />
+                        </div>
+
+                        <!-- description part here -->
+                        <div class="descritionpart">
+                            <div class="description-collapse">
+                                <h3>Description</h3>
+
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut perspiciatis at, nam voluptate distinctio in. Nihil adipisci aspernatur voluptates harum?</p>
+                                <div class="collapse" id="prodcut-description">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo quas tempora sequi sit fugit natus enim eligendi! Saepe, laboriosam tempora. Quia ad debitis deserunt
+                                        voluptatibus nihil nemo numquam et voluptas aspernatur ullam illum veritatis in vel, eveniet consequatur aperiam. Laborum, saepe. Alias earum temporibus dicta consequuntur, soluta
+                                        beatae asperiores tempore, qui vitae libero, reprehenderit iure in. Modi, consequuntur sint. Voluptatum, sapiente repellendus? Officia illum consequatur dignissimos quia iusto
+                                        nulla laboriosam, esse dolorem odio corrupti fugiat deserunt ea ex est.
+                                    </p>
+                                </div>
+                                <button class="theme-btn" type="button" data-bs-toggle="collapse" data-bs-target="#prodcut-description" aria-expanded="false" aria-controls="collapseExample">ReacMore</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
-
-
-
-
         </section>
-
-
-
-
-
 
         <!-- footer -->
         <footer id="footer" class="theme-gd p-4">
@@ -104,8 +170,8 @@
             </div>
         </footer>
         <!-- script tags  -->
+        <script src="../js/bootstrap.bundle.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script src="../js/index.js"></script>
-        
     </body>
 </html>
-
