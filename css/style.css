@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* imported file */
 .theme-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 .theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
 #FAQ-page-css .faqs-section .top-box button, #listing-card-page .listingCard > div.title-and-content .show-details-btn {
-  background: #ffd66c;
+  background: #90899b;
   border: none;
   padding: 10px 25px;
   text-decoration: none;
@@ -19,7 +19,7 @@
 
 .theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
 #FAQ-page-css .faqs-section .top-box button:hover, #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover {
-  background: #d29700;
+  background: #44404b;
   color: #fff;
 }
 
@@ -29,11 +29,11 @@
 }
 
 .theme-gd {
-  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+  background: linear-gradient(263.21deg, #90899b 4.26%, #789 96.44%);
 }
 
 .title-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 .title-text.underline {
@@ -49,26 +49,26 @@
   width: 100%;
   height: 7px;
   border-radius: 20px;
-  background: #b28c05;
+  background: #506572;
   bottom: -20px;
   left: 0px;
 }
 
 .theme-soft-bg {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 .theme-soft-bg:focus {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 .theme-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 .theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
 #FAQ-page-css .faqs-section .top-box button, #listing-card-page .listingCard > div.title-and-content .show-details-btn {
-  background: #ffd66c;
+  background: #90899b;
   border: none;
   padding: 10px 25px;
   text-decoration: none;
@@ -80,7 +80,7 @@
 
 .theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
 #FAQ-page-css .faqs-section .top-box button:hover, #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover {
-  background: #d29700;
+  background: #44404b;
   color: #fff;
 }
 
@@ -90,11 +90,11 @@
 }
 
 .theme-gd {
-  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+  background: linear-gradient(263.21deg, #90899b 4.26%, #789 96.44%);
 }
 
 .title-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 .title-text.underline {
@@ -110,17 +110,17 @@
   width: 100%;
   height: 7px;
   border-radius: 20px;
-  background: #b28c05;
+  background: #506572;
   bottom: -20px;
   left: 0px;
 }
 
 .theme-soft-bg {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 .theme-soft-bg:focus {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 #HNAZMUL__NAVBAR__WSLWC {
@@ -204,12 +204,12 @@
   font-weight: 500;
   font-size: 18px;
   font-weight: 500;
-  color: #4f3e02;
+  color: #263036;
 }
 
 #HNAZMUL__NAVBAR__WSLWC .HNAZMUL__WSLWC_NAV-container .HNAZMUL__WSLWC_NAV-items-wrapper ul.list-items-area li.nav-item .nav-links:hover {
-  background: #ffd66c;
-  color: #4f3e02;
+  background: #90899b;
+  color: #263036;
 }
 
 @media screen and (max-width: 1020px) {
@@ -235,7 +235,7 @@
     margin: 0px;
     padding: 0px;
     width: 100%;
-    background: #b28c05;
+    background: #506572;
     height: 100vh;
     overflow-y: auto;
     direction: rtl;
@@ -273,12 +273,12 @@
 }
 
 .theme-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 .theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
 #FAQ-page-css .faqs-section .top-box button, #listing-card-page .listingCard > div.title-and-content .show-details-btn {
-  background: #ffd66c;
+  background: #90899b;
   border: none;
   padding: 10px 25px;
   text-decoration: none;
@@ -290,7 +290,7 @@
 
 .theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
 #FAQ-page-css .faqs-section .top-box button:hover, #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover {
-  background: #d29700;
+  background: #44404b;
   color: #fff;
 }
 
@@ -300,11 +300,11 @@
 }
 
 .theme-gd {
-  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+  background: linear-gradient(263.21deg, #90899b 4.26%, #789 96.44%);
 }
 
 .title-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 .title-text.underline {
@@ -320,17 +320,17 @@
   width: 100%;
   height: 7px;
   border-radius: 20px;
-  background: #b28c05;
+  background: #506572;
   bottom: -20px;
   left: 0px;
 }
 
 .theme-soft-bg {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 .theme-soft-bg:focus {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 #cotact-login-signup {
@@ -345,8 +345,8 @@
 #cotact-login-signup header.contact-form-header {
   padding: 100px 0;
   width: 100%;
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(80%, rgba(255, 214, 108, 0.65)), color-stop(20%, #b98500));
-  background: linear-gradient(to right top, rgba(255, 214, 108, 0.65) 80%, #b98500 20%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(80%, rgba(144, 137, 155, 0.65)), color-stop(20%, #38343d));
+  background: linear-gradient(to right top, rgba(144, 137, 155, 0.65) 80%, #38343d 20%);
 }
 
 #cotact-login-signup header.contact-form-header .the-form-and-img {
@@ -446,7 +446,7 @@
 
 #cotact-login-signup header.contact-form-header .the-form .contact-form-title h2 {
   font-size: 45px;
-  color: #ffd66c;
+  color: #90899b;
   font-weight: 600;
   margin-bottom: 20px;
   margin: 20px auto;
@@ -463,7 +463,7 @@
   color: #000;
   border-radius: 30px;
   border: none;
-  background: #eedaa1;
+  background: #aac8ff;
 }
 
 #cotact-login-signup ::-webkit-input-placeholder {
@@ -488,7 +488,7 @@
   display: block !important;
   text-align: center;
   margin: auto;
-  background: #ffd66c;
+  background: #90899b;
   color: #fff;
 }
 
@@ -498,7 +498,7 @@
   width: 30%;
   margin: 10px auto 20px auto;
   height: 5px;
-  background: #ffba06;
+  background: #5d5767;
 }
 
 #cotact-login-signup .the-map-section {
@@ -518,7 +518,7 @@
 #cotact-login-signup .the-map-section .about-map-section {
   width: 50%;
   padding: 100px 50px;
-  color: #ffd66c;
+  color: #90899b;
 }
 
 #cotact-login-signup .the-map-section .about-map-section .the-map-heading {
@@ -539,10 +539,10 @@
 }
 
 #cotact-login-signup .the-form .buttons button {
-  border: 3px solid #ffd66c;
+  border: 3px solid #90899b;
   padding: 12px !important;
   border-radius: 10px;
-  color: #ffd66c;
+  color: #90899b;
   font-size: 18px;
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
@@ -550,7 +550,7 @@
 }
 
 #cotact-login-signup .the-form .buttons button:hover {
-  background: #ffd66c;
+  background: #90899b;
   color: #fff;
 }
 
@@ -573,12 +573,12 @@
 }
 
 .theme-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 .theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
 #FAQ-page-css .faqs-section .top-box button, #listing-card-page .listingCard > div.title-and-content .show-details-btn {
-  background: #ffd66c;
+  background: #90899b;
   border: none;
   padding: 10px 25px;
   text-decoration: none;
@@ -590,7 +590,7 @@
 
 .theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
 #FAQ-page-css .faqs-section .top-box button:hover, #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover {
-  background: #d29700;
+  background: #44404b;
   color: #fff;
 }
 
@@ -600,11 +600,11 @@
 }
 
 .theme-gd {
-  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+  background: linear-gradient(263.21deg, #90899b 4.26%, #789 96.44%);
 }
 
 .title-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 .title-text.underline {
@@ -620,21 +620,21 @@
   width: 100%;
   height: 7px;
   border-radius: 20px;
-  background: #b28c05;
+  background: #506572;
   bottom: -20px;
   left: 0px;
 }
 
 .theme-soft-bg {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 .theme-soft-bg:focus {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 #header_country-selected {
-  background: linear-gradient(263.21deg, #ffd66c 38.45%, #c59a2a 38.6%, #c59a2a 96.44%);
+  background: linear-gradient(263.21deg, #90899b 38.45%, #789 38.6%, #789 96.44%);
   padding: 100px;
   margin-top: 50px;
 }
@@ -669,9 +669,9 @@
   height: 280px;
   border-radius: 473px;
   border-radius: 50%;
-  background: radial-gradient(50% 50% at 50% 50%, #efad00 23.63%, #fff 100%);
+  background: radial-gradient(50% 50% at 50% 50%, #3088e0 23.63%, #fff 100%);
   position: relative;
-  border: 5px solid #f6ebcc;
+  border: 5px solid #dde9ff;
   overflow: hidden;
 }
 
@@ -706,12 +706,12 @@
 }
 
 .theme-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 .theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
 #FAQ-page-css .faqs-section .top-box button, #listing-card-page .listingCard > div.title-and-content .show-details-btn {
-  background: #ffd66c;
+  background: #90899b;
   border: none;
   padding: 10px 25px;
   text-decoration: none;
@@ -723,7 +723,7 @@
 
 .theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
 #FAQ-page-css .faqs-section .top-box button:hover, #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover {
-  background: #d29700;
+  background: #44404b;
   color: #fff;
 }
 
@@ -733,11 +733,11 @@
 }
 
 .theme-gd {
-  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+  background: linear-gradient(263.21deg, #90899b 4.26%, #789 96.44%);
 }
 
 .title-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 .title-text.underline {
@@ -753,21 +753,21 @@
   width: 100%;
   height: 7px;
   border-radius: 20px;
-  background: #b28c05;
+  background: #506572;
   bottom: -20px;
   left: 0px;
 }
 
 .theme-soft-bg {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 .theme-soft-bg:focus {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 #winning_product-header {
-  background: linear-gradient(263.21deg, rgba(197, 154, 42, 0.7) 15.41%, #ffd66c 72.53%, #c59a2a 72.67%);
+  background: linear-gradient(263.21deg, rgba(119, 136, 153, 0.7) 15.41%, #90899b 72.53%, #789 72.67%);
   padding: 6rem;
   padding-top: 9rem;
 }
@@ -781,7 +781,7 @@
 #filter_options_Section {
   max-width: 870px;
   margin: auto;
-  background: #f9f2dd;
+  background: #f1f6ff;
   margin-bottom: 3rem;
   margin-top: -2rem;
 }
@@ -805,7 +805,7 @@
 }
 
 #filter_options_Section .filter-options-area .filter-option-choice .nav.nav-tabs .nav-item button.active {
-  background: #c59a2a !important;
+  background: #789 !important;
 }
 
 #filter_options_Section .filter-options-area #filter-tabs-content {
@@ -838,8 +838,8 @@
 }
 
 #filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input {
-  background: #f6ebcc;
-  border: 4px solid #ffd66c;
+  background: #dde9ff;
+  border: 4px solid #90899b;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 13px;
@@ -848,35 +848,35 @@
 #filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input::-webkit-input-placeholder {
   font-size: 14px;
   font-weight: 500;
-  color: #ffc839;
+  color: #766f82;
 }
 
 #filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input:-ms-input-placeholder {
   font-size: 14px;
   font-weight: 500;
-  color: #ffc839;
+  color: #766f82;
 }
 
 #filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input::-ms-input-placeholder {
   font-size: 14px;
   font-weight: 500;
-  color: #ffc839;
+  color: #766f82;
 }
 
 #filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input::placeholder {
   font-size: 14px;
   font-weight: 500;
-  color: #ffc839;
+  color: #766f82;
 }
 
 #filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel label {
   font-size: 16px;
-  color: #4f3e02;
+  color: #263036;
   font-weight: 500;
 }
 
 #filter_options_Section .filter-options-area #filter-tabs-content h6 span {
-  color: #ffba06;
+  color: #5d5767;
 }
 
 #product-card-section {
@@ -906,8 +906,8 @@
 }
 
 #product-card-section .all-product-card .Product-card {
-  background: #f9f2dd;
-  border: 4px solid rgba(197, 154, 42, 0.5);
+  background: #f1f6ff;
+  border: 4px solid rgba(119, 136, 153, 0.5);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -3px 12px 31px 2px rgba(29, 59, 118, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -3px 12px 31px 2px rgba(29, 59, 118, 0.25);
   border-radius: 23px;
@@ -936,7 +936,7 @@
   width: 100%;
   height: 100%;
   display: table;
-  background: linear-gradient(359.14deg, #ffd66c 0.67%, rgba(227, 204, 139, 0) 46.03%, rgba(196, 196, 196, 0) 97.64%);
+  background: linear-gradient(359.14deg, #90899b 0.67%, rgba(227, 204, 139, 0) 46.03%, rgba(196, 196, 196, 0) 97.64%);
   top: 0px;
   left: 0px;
   z-index: 100;
@@ -950,25 +950,25 @@
 }
 
 #product-card-section .all-product-card .Product-card .product-desc {
-  color: #4f3e02;
+  color: #263036;
   padding: 20px;
 }
 
 #product-card-section .all-product-card .Product-card .product-desc h1, #product-card-section .all-product-card .Product-card .product-desc h2, #product-card-section .all-product-card .Product-card .product-desc h4, #product-card-section .all-product-card .Product-card .product-desc h5, #product-card-section .all-product-card .Product-card .product-desc h6, #product-card-section .all-product-card .Product-card .product-desc h3 {
-  color: #4f3e02;
+  color: #263036;
 }
 
 #product-card-section .all-product-card .Product-card .product-desc h1 span, #product-card-section .all-product-card .Product-card .product-desc h2 span, #product-card-section .all-product-card .Product-card .product-desc h4 span, #product-card-section .all-product-card .Product-card .product-desc h5 span, #product-card-section .all-product-card .Product-card .product-desc h6 span, #product-card-section .all-product-card .Product-card .product-desc h3 span {
-  color: #c59a2a;
+  color: #789;
 }
 
 .theme-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 .theme-btn, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup .the-form .buttons button, #FAQ-page-css .faqs-section .top-box input,
 #FAQ-page-css .faqs-section .top-box button, #listing-card-page .listingCard > div.title-and-content .show-details-btn {
-  background: #ffd66c;
+  background: #90899b;
   border: none;
   padding: 10px 25px;
   text-decoration: none;
@@ -980,7 +980,7 @@
 
 .theme-btn:hover, #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup .the-form .buttons button:hover, #FAQ-page-css .faqs-section .top-box input:hover,
 #FAQ-page-css .faqs-section .top-box button:hover, #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover {
-  background: #d29700;
+  background: #44404b;
   color: #fff;
 }
 
@@ -990,11 +990,11 @@
 }
 
 .theme-gd {
-  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+  background: linear-gradient(263.21deg, #90899b 4.26%, #789 96.44%);
 }
 
 .title-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 .title-text.underline {
@@ -1010,17 +1010,17 @@
   width: 100%;
   height: 7px;
   border-radius: 20px;
-  background: #b28c05;
+  background: #506572;
   bottom: -20px;
   left: 0px;
 }
 
 .theme-soft-bg {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 .theme-soft-bg:focus {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 #FAQ-page-css {
@@ -1057,14 +1057,14 @@
       flex-flow: wrap;
   padding: 20px;
   padding-bottom: 40px;
-  background: linear-gradient(175deg, #ffd058, #9b7921);
+  background: linear-gradient(175deg, #867e92, #5f6f7e);
   border-radius: 55px;
   font-size: 20px;
 }
 
 #FAQ-page-css .faqs-section .top-box input {
-  background: #f6ebcc;
-  border: 4px solid #ffd66c;
+  background: #dde9ff;
+  border: 4px solid #90899b;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 13px;
@@ -1074,25 +1074,25 @@
 #FAQ-page-css .faqs-section .top-box input::-webkit-input-placeholder {
   font-size: 14px;
   font-weight: 500;
-  color: #9b7921;
+  color: #5f6f7e;
 }
 
 #FAQ-page-css .faqs-section .top-box input:-ms-input-placeholder {
   font-size: 14px;
   font-weight: 500;
-  color: #9b7921;
+  color: #5f6f7e;
 }
 
 #FAQ-page-css .faqs-section .top-box input::-ms-input-placeholder {
   font-size: 14px;
   font-weight: 500;
-  color: #9b7921;
+  color: #5f6f7e;
 }
 
 #FAQ-page-css .faqs-section .top-box input::placeholder {
   font-size: 14px;
   font-weight: 500;
-  color: #9b7921;
+  color: #5f6f7e;
 }
 
 #FAQ-page-css .faqs-section .top-box input:active, #FAQ-page-css .faqs-section .top-box input:focus {
@@ -1117,7 +1117,7 @@
 #FAQ-page-css .faqs-section .faq-boxes .top-title {
   padding: 25px;
   text-align: center;
-  color: #9b7921;
+  color: #5f6f7e;
   font-size: 26px;
 }
 
@@ -1127,13 +1127,13 @@
   width: 60px;
   height: 5px;
   margin: 10px auto;
-  background: #c59a2a;
+  background: #789;
 }
 
 #FAQ-page-css .faqs-section .faq-boxes .faq-box {
   padding: 15px 30px;
   width: 100%;
-  background: #b08a26;
+  background: #6a7b8d;
   color: #fff;
   margin-bottom: 30px;
   -webkit-transition: 1s;
@@ -1198,7 +1198,7 @@
 
 #FAQ-page-css .arrow-btn .button:hover {
   background: rgba(255, 255, 255, 0.7);
-  color: #c59a2a;
+  color: #789;
 }
 
 #FAQ-page-css .arrow-btn .button:active {
@@ -1223,7 +1223,7 @@
   height: 100vh;
   width: 30%;
   padding: 100px 50px;
-  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+  background: linear-gradient(263.21deg, #90899b 4.26%, #789 96.44%);
 }
 
 #profile-update-page-css .img-side .img {
@@ -1275,7 +1275,7 @@
 #profile-update-page-css .top-section .form-side .changer-form .the-title-of-form {
   width: 100%;
   padding: 16px;
-  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+  background: linear-gradient(263.21deg, #90899b 4.26%, #789 96.44%);
   color: #fff;
 }
 
@@ -1300,7 +1300,7 @@
 
 #profile-update-page-css .top-section .form-side .changer-form .all-inputs input[type="submit"] {
   width: 150px;
-  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+  background: linear-gradient(263.21deg, #90899b 4.26%, #789 96.44%);
   margin-top: 15px;
   color: #fff;
 }
@@ -1316,12 +1316,12 @@
 }
 
 #listing-card-page .theme-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 #listing-card-page .theme-btn, #listing-card-page #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup header.contact-form-header .the-form-and-img .the-form #listing-card-page input[type="submit"], #listing-card-page #cotact-login-signup .the-form .buttons button, #cotact-login-signup .the-form .buttons #listing-card-page button, #listing-card-page #FAQ-page-css .faqs-section .top-box input, #FAQ-page-css .faqs-section .top-box #listing-card-page input,
 #listing-card-page #FAQ-page-css .faqs-section .top-box button, #FAQ-page-css .faqs-section .top-box #listing-card-page button, #listing-card-page .listingCard > div.title-and-content .show-details-btn {
-  background: #ffd66c;
+  background: #90899b;
   border: none;
   padding: 10px 25px;
   text-decoration: none;
@@ -1333,7 +1333,7 @@
 
 #listing-card-page .theme-btn:hover, #listing-card-page #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup header.contact-form-header .the-form-and-img .the-form #listing-card-page input:hover[type="submit"], #listing-card-page #cotact-login-signup .the-form .buttons button:hover, #cotact-login-signup .the-form .buttons #listing-card-page button:hover, #listing-card-page #FAQ-page-css .faqs-section .top-box input:hover, #FAQ-page-css .faqs-section .top-box #listing-card-page input:hover,
 #listing-card-page #FAQ-page-css .faqs-section .top-box button:hover, #FAQ-page-css .faqs-section .top-box #listing-card-page button:hover, #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover {
-  background: #d29700;
+  background: #44404b;
   color: #fff;
 }
 
@@ -1343,11 +1343,11 @@
 }
 
 #listing-card-page .theme-gd {
-  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+  background: linear-gradient(263.21deg, #90899b 4.26%, #789 96.44%);
 }
 
 #listing-card-page .title-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 #listing-card-page .title-text.underline {
@@ -1363,17 +1363,17 @@
   width: 100%;
   height: 7px;
   border-radius: 20px;
-  background: #b28c05;
+  background: #506572;
   bottom: -20px;
   left: 0px;
 }
 
 #listing-card-page .theme-soft-bg {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 #listing-card-page .theme-soft-bg:focus {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 #listing-card-page header#header {
@@ -1416,7 +1416,7 @@
   -ms-grid-column: 1;
   -ms-grid-column-span: 5;
   grid-column: 1 / span 5;
-  background: #4f3e02;
+  background: #263036;
 }
 
 #listing-card-page #listing-product-panel > .wrapper .sitebar > .wrapper {
@@ -1435,7 +1435,7 @@
   padding: 10px 10px;
   border-radius: 30px;
   text-align: center;
-  background: #f6ebcc;
+  background: #dde9ff;
   margin: 10px auto;
   font-size: 20px;
 }
@@ -1512,7 +1512,7 @@
 
 #listing-card-page .listingCard > div.seriel-number {
   width: 10%;
-  background: #c59a2a;
+  background: #789;
 }
 
 #listing-card-page .listingCard > div.seriel-number h1 {
@@ -1558,7 +1558,7 @@
 
 #listing-card-page .listingCard > div.title-and-content .title-and-date h3,
 #listing-card-page .listingCard > div.title-and-content .title-and-date i {
-  color: #4f3e02;
+  color: #263036;
 }
 
 #listing-card-page .listingCard > div.title-and-content .products-rates {
@@ -1573,11 +1573,11 @@
 }
 
 #listing-card-page .listingCard > div.title-and-content .products-rates h6 {
-  color: #c59a2a;
+  color: #789;
 }
 
 #listing-card-page .listingCard > div.title-and-content .products-rates h6 span {
-  color: #4f3e02;
+  color: #263036;
 }
 
 #listing-card-page .listingCard > div.title-and-content .show-details-btn {
@@ -1708,12 +1708,12 @@
 }
 
 #product-details .theme-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 #product-details .theme-btn, #product-details #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input[type="submit"], #cotact-login-signup header.contact-form-header .the-form-and-img .the-form #product-details input[type="submit"], #product-details #cotact-login-signup .the-form .buttons button, #cotact-login-signup .the-form .buttons #product-details button, #product-details #FAQ-page-css .faqs-section .top-box input, #FAQ-page-css .faqs-section .top-box #product-details input,
 #product-details #FAQ-page-css .faqs-section .top-box button, #FAQ-page-css .faqs-section .top-box #product-details button, #product-details #listing-card-page .listingCard > div.title-and-content .show-details-btn, #listing-card-page .listingCard > div.title-and-content #product-details .show-details-btn {
-  background: #ffd66c;
+  background: #90899b;
   border: none;
   padding: 10px 25px;
   text-decoration: none;
@@ -1725,7 +1725,7 @@
 
 #product-details .theme-btn:hover, #product-details #cotact-login-signup header.contact-form-header .the-form-and-img .the-form input:hover[type="submit"], #cotact-login-signup header.contact-form-header .the-form-and-img .the-form #product-details input:hover[type="submit"], #product-details #cotact-login-signup .the-form .buttons button:hover, #cotact-login-signup .the-form .buttons #product-details button:hover, #product-details #FAQ-page-css .faqs-section .top-box input:hover, #FAQ-page-css .faqs-section .top-box #product-details input:hover,
 #product-details #FAQ-page-css .faqs-section .top-box button:hover, #FAQ-page-css .faqs-section .top-box #product-details button:hover, #product-details #listing-card-page .listingCard > div.title-and-content .show-details-btn:hover, #listing-card-page .listingCard > div.title-and-content #product-details .show-details-btn:hover {
-  background: #d29700;
+  background: #44404b;
   color: #fff;
 }
 
@@ -1735,11 +1735,11 @@
 }
 
 #product-details .theme-gd {
-  background: linear-gradient(263.21deg, #ffd66c 4.26%, #c59a2a 96.44%);
+  background: linear-gradient(263.21deg, #90899b 4.26%, #789 96.44%);
 }
 
 #product-details .title-text {
-  color: #4f3e02;
+  color: #263036;
 }
 
 #product-details .title-text.underline {
@@ -1755,28 +1755,28 @@
   width: 100%;
   height: 7px;
   border-radius: 20px;
-  background: #b28c05;
+  background: #506572;
   bottom: -20px;
   left: 0px;
 }
 
 #product-details .theme-soft-bg {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 #product-details .theme-soft-bg:focus {
-  background: #f6ebcc;
+  background: #dde9ff;
 }
 
 #product-details #header-section {
-  background: linear-gradient(263.21deg, #fbd655 4.26%, #f9ca24 14.34%, #f9c40b 48.48%, #9a7904 75.32%, #816503 93.08%);
+  background: linear-gradient(263.21deg, #9fb1bc 4.26%, #8199a7 14.34%, #728c9c 48.48%, #465863 75.32%, #3b4b54 93.08%);
   padding: 5rem;
 }
 
 #product-details #header-section h1 {
   font-weight: bold;
   font-size: 59px;
-  color: #4f3e02;
+  color: #263036;
   text-align: center;
 }
 
@@ -1820,21 +1820,29 @@
 }
 
 #product-details #product-details-section .product-details-container .product-lg-image #product-details-small-img-slider .swiper-wrapper .swiper-slide {
-  height: 70px;
+  height: 90px;
   border-radius: 10px;
-  background: grey;
+  background: #ece9e9;
+  border: 1px solid grey;
+}
+
+#product-details #product-details-section .product-details-container .product-lg-image #product-details-small-img-slider .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 #product-details #product-details-section .product-details-container .product-all-description .title-date-catagory .pd-title {
-  color: #4f3e02;
+  color: #263036;
   font-weight: 500;
 }
 
 #product-details #product-details-section .product-details-container .product-all-description .title-date-catagory .buttons button {
-  background: #ffd66c;
+  background: #90899b;
   margin: 5px;
   border-radius: 40px;
-  color: #4f3e02;
+  color: #263036;
 }
 
 #product-details #product-details-section .product-details-container .product-all-description .analytics-profit-cost .analytics > .wrapper {
@@ -1884,6 +1892,39 @@
   width: 40%;
 }
 
+#product-details #product-details-section .product-details-container .product-all-description .targeting-part {
+  width: 100%;
+}
+
+#product-details #product-details-section .product-details-container .product-all-description .targeting-part .targetng-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+#product-details #product-details-section .product-details-container .product-all-description .targeting-part .targetng-wrapper div.box {
+  width: 172px;
+  text-align: center;
+}
+
+#product-details #product-details-section .product-details-container .product-all-description .targeting-part .targetng-wrapper div.box h1 {
+  font-size: 35px;
+}
+
+#product-details #product-details-section .product-details-container .product-all-description .custom-alert-box {
+  margin-top: 30px;
+  padding: 20px 10px;
+  border-left: 2px solid dimgray;
+  color: dimgray;
+}
+
+#product-details #product-details-section .product-details-container .product-all-description .custom-alert-box .dim-text {
+  color: inherit;
+}
+
 * {
   font-family: "poppins", sans-serif;
 }
@@ -1903,6 +1944,6 @@ button {
 .HNAZMUL__WSLWC_NAV-brand img {
   width: 140px;
   padding: 10px;
-  background: #ffd66c;
+  background: #90899b;
 }
 /*# sourceMappingURL=style.css.map */
