@@ -1,6 +1,13 @@
 @import "colors";
 header#header {
-    background: linear-gradient(263.21deg, #ffc101 4.26%, #ffc100 40.27%, #d6af4b 40.28%, #d3aa41 93.08%);
+    background: linear-gradient(
+        263.21deg,
+        lighten($primary-color-dark, 50%) 4.26%,
+        lighten($primary-color-dark, 40%) 14.34%,
+        lighten($primary-color-dark, 35%) 48.48%,
+        lighten($primary-color-dark, 15%) 75.32%,
+        lighten($primary-color-dark, 10%) 93.08%
+    );
     padding: 5rem;
     margin-top: 50px;
     h1 {
@@ -9,6 +16,7 @@ header#header {
         font-style: normal;
         font-weight: bold;
         font-size: 59px;
+        color:lighten($color: $primary-color-dark, $amount: 90)
     }
 }
 
@@ -17,8 +25,8 @@ header#header {
     background: #fbf6e8;
     height: 700px;
     overflow: hidden;
-    @media screen and (max-width:676px) {
-        height:auto;
+    @media screen and (max-width: 676px) {
+        height: auto;
     }
     & > .wrapper {
         width: 100%;
@@ -48,8 +56,8 @@ header#header {
                 }
             }
 
-            @media screen and (max-width:676px){
-                grid-column: 1 / span 24
+            @media screen and (max-width: 676px) {
+                grid-column: 1 / span 24;
             }
         }
         .content {
@@ -60,16 +68,16 @@ header#header {
                 width: 100%;
                 overflow: hidden;
                 overflow-y: scroll;
-                @media screen and (max-width:676px) {
-                    height: auto;;
+                @media screen and (max-width: 676px) {
+                    height: auto;
                 }
             }
 
-            @media screen and (max-width:676px) {
-                grid-column:  1 / span 24;
-                padding:5px;
-                &>.wrapper{
-                    height:auto;
+            @media screen and (max-width: 676px) {
+                grid-column: 1 / span 24;
+                padding: 5px;
+                & > .wrapper {
+                    height: auto;
                 }
             }
         }
@@ -122,7 +130,7 @@ header#header {
                         justify-content: space-evenly;
                         height: 100%;
                         align-items: center;
-                        color:white;
+                        color: white;
                     }
                 }
             }
@@ -145,10 +153,10 @@ header#header {
                     }
                 }
             }
-            .show-details-btn{
+            .show-details-btn {
                 @extend .theme-btn;
-                padding:5px 10px;
-                margin-top: 10px;;
+                padding: 5px 10px;
+                margin-top: 10px;
                 cursor: pointer;
             }
         }
@@ -175,11 +183,10 @@ header#header {
 
             background: transparentize($color: rgb(255, 155, 155), $amount: 0.9);
 
-            h4{
-                .iconify{
-                    color:red;
+            h4 {
+                .iconify {
+                    color: red;
                     cursor: pointer;
-                    
                 }
             }
         }
@@ -194,66 +201,60 @@ header#header {
         }
     }
 
-    @media screen and (max-width: 676px){
-
-        height:auto;
-        display:grid;
+    @media screen and (max-width: 676px) {
+        height: auto;
+        display: grid;
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(6, 50px);
 
-        &>div {
-            &.seriel-number{
+        & > div {
+            &.seriel-number {
                 grid-row: 1 / 2;
                 grid-column: 1 / 13;
-                width:100%;
-
+                width: 100%;
             }
-            &.title-and-content{
-                width:100%;
-                grid-row: 2 /  5;
+            &.title-and-content {
+                width: 100%;
+                grid-row: 2 / 5;
                 grid-column: 1 / 13;
-                width:100%;
-                .title-and-date{
-                    h3{
-                        font-size:16px;
+                width: 100%;
+                .title-and-date {
+                    h3 {
+                        font-size: 16px;
                     }
-                    i{
-                        font-size:12px;
+                    i {
+                        font-size: 12px;
                     }
                 }
 
-                .products-rates{
+                .products-rates {
                     flex-flow: wrap;
-                    h6{
-                        font-size:12px;
-                        width:50%;
+                    h6 {
+                        font-size: 12px;
+                        width: 50%;
                     }
                 }
-
             }
-            &.status{
-                width:100%;
+            &.status {
+                width: 100%;
                 grid-row: 5 / 7;
-                grid-column: 1 /  5;
+                grid-column: 1 / 5;
                 position: relative;
                 z-index: 2;
-
             }
-            &.save-btn{
-                width:100%;
+            &.save-btn {
+                width: 100%;
                 grid-row: 5 / 7;
-                grid-column: 5 /  8;
+                grid-column: 5 / 8;
                 position: relative;
                 z-index: 2;
-
             }
             &.img {
-                width:100%;
+                width: 100%;
                 grid-row: 4 / 7;
-                grid-column: 8 /  13;
+                grid-column: 8 / 13;
                 position: relative;
                 z-index: 1;
-                
             }
         }
     }
