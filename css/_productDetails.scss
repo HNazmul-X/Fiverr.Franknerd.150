@@ -85,11 +85,12 @@
                 .analytics{
                     
                     &>.wrapper{
-                        background:lighten($color: dimgray, $amount: 40);
+                        border:1px solid rgba(0, 0, 0, 0.199);
                         &>h5{
                             background:dimgray;
                             text-align: center;
                             color:white;
+                            padding:5px 0;
                         }
                         .trends-sound{
                             display: flex;

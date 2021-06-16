@@ -155,7 +155,7 @@
   }
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1170px) {
   #HNAZMUL__NAVBAR__WSLWC .HNAZMUL__WSLWC_NAV-container {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -177,7 +177,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1170px) {
   #HNAZMUL__NAVBAR__WSLWC .HNAZMUL__WSLWC_NAV-container .HNAZMUL__WSLWC_NAV-toogle-icon {
     display: block;
   }
@@ -212,7 +212,7 @@
   color: #263036;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1170px) {
   #HNAZMUL__NAVBAR__WSLWC .HNAZMUL__WSLWC_NAV-container .HNAZMUL__WSLWC_NAV-items-wrapper {
     position: fixed;
     width: 0%;
@@ -258,7 +258,7 @@
   background: rgba(0, 0, 0, 0.534);
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1170px) {
   #HNAZMUL__NAVBAR__WSLWC .HNAZMUL__WSLWC_NAV-container .nav-items-hider {
     position: fixed;
     width: 100%;
@@ -830,104 +830,11 @@
 }
 
 #filter_options_Section {
-  max-width: 870px;
-  margin: auto;
   background: #f1f6ff;
   margin-bottom: 3rem;
   margin-top: -2rem;
-}
-
-#filter_options_Section .filter-options-area .filter-option-choice .nav.nav-tabs {
-  padding: 5px 5px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#filter_options_Section .filter-options-area .filter-option-choice .nav.nav-tabs .nav-item {
-  width: 50%;
-}
-
-#filter_options_Section .filter-options-area .filter-option-choice .nav.nav-tabs .nav-item button {
-  width: 100%;
-  font-weight: 500;
-  font-size: 25px;
-  color: #4f3e02;
-}
-
-#filter_options_Section .filter-options-area .filter-option-choice .nav.nav-tabs .nav-item button.active {
-  background: #789 !important;
-}
-
-#filter_options_Section .filter-options-area #filter-tabs-content {
-  padding-bottom: 2rem;
-}
-
-#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: wrap row;
-          flex-flow: wrap row;
-  gap: 40px 20px;
-  padding: 20px;
-  height: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-bottom: 40px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel {
-  width: 260px;
-  height: 49px;
-  display: inline-table;
-}
-
-#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input {
-  background: #dde9ff;
-  border: 4px solid #90899b;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 13px;
-}
-
-#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input::-webkit-input-placeholder {
-  font-size: 14px;
-  font-weight: 500;
-  color: #766f82;
-}
-
-#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input:-ms-input-placeholder {
-  font-size: 14px;
-  font-weight: 500;
-  color: #766f82;
-}
-
-#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input::-ms-input-placeholder {
-  font-size: 14px;
-  font-weight: 500;
-  color: #766f82;
-}
-
-#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel input::placeholder {
-  font-size: 14px;
-  font-weight: 500;
-  color: #766f82;
-}
-
-#filter_options_Section .filter-options-area #filter-tabs-content #filter-tabs-wrapper .inputAndLavel label {
-  font-size: 16px;
-  color: #263036;
-  font-weight: 500;
-}
-
-#filter_options_Section .filter-options-area #filter-tabs-content h6 span {
-  color: #5d5767;
+  position: relative;
+  z-index: 2;
 }
 
 #product-card-section {
@@ -974,11 +881,71 @@
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.281), -3px 12px 31px 2px rgba(29, 59, 118, 0.363);
 }
 
+#product-card-section .all-product-card .Product-card.locked-card {
+  overflow: hidden;
+}
+
+#product-card-section .all-product-card .Product-card.locked-card .product-thumnail-wrapper {
+  z-index: 2;
+  overflow: hidden;
+}
+
+#product-card-section .all-product-card .Product-card.locked-card .product-thumnail-wrapper .locked-status {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: red;
+  color: white;
+  top: 0px;
+  left: 0px;
+  z-index: 101;
+  display: -ms-grid !important;
+  display: grid !important;
+  place-items: center;
+}
+
+#product-card-section .all-product-card .Product-card.locked-card .card-button-view {
+  position: relative;
+  overflow: hidden;
+}
+
+#product-card-section .all-product-card .Product-card.locked-card .card-button-view::after {
+  content: "Upgrade to Unlock";
+  display: block;
+  background: red;
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
 #product-card-section .all-product-card .Product-card .product-thumnail-wrapper {
   position: relative;
   width: 100%;
   height: 227px;
   z-index: 1;
+}
+
+#product-card-section .all-product-card .Product-card .product-thumnail-wrapper .seriel-number {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 10px 5px;
+  background: #789;
+  color: #fff;
+  border-radius: 50%;
+}
+
+#product-card-section .all-product-card .Product-card .product-thumnail-wrapper .trend-status {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
 #product-card-section .all-product-card .Product-card .product-thumnail-wrapper::after {
@@ -1898,13 +1865,14 @@
 }
 
 #product-details #product-details-section .product-details-container .product-all-description .analytics-profit-cost .analytics > .wrapper {
-  background: #cfcfcf;
+  border: 1px solid rgba(0, 0, 0, 0.199);
 }
 
 #product-details #product-details-section .product-details-container .product-all-description .analytics-profit-cost .analytics > .wrapper > h5 {
   background: dimgray;
   text-align: center;
   color: white;
+  padding: 5px 0;
 }
 
 #product-details #product-details-section .product-details-container .product-all-description .analytics-profit-cost .analytics > .wrapper .trends-sound {
