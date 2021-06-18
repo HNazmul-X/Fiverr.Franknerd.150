@@ -12,16 +12,33 @@
         <title>Document</title>
     </head>
     <body id="product-details">
-        <nav id="HNAZMUL__NAVBAR__WSLWC">
-            <div class="HNAZMUL__WSLWC_NAV-container">
-                <div class="HNAZMUL__WSLWC_NAV-toogle-icon">
-                    <span class="iconify" data-icon="gg:menu-grid-o" data-inline="false"></span>
+        <!-- navbar here -->
+        <nav id="HNAZMUL_Navbar_NWLSBM">
+            <div class="HNAZMUL_Navbar_NWLSBM-container">
+                <div class="HNAZMUL_Navbar_NWLSBM-brand">
+                    <h3>Navbar Brand</h3>
                 </div>
-                <div class="HNAZMUL__WSLWC_NAV-brand">
-                    <img src="../images/logo-dark-2.png" alt="" />
+
+                <div class="HNAZMUL_Navbar_NWLSBM-searchbar">
+                    <div class="search-input">
+                        <input placeholder="Explore Topics" type="text" name="" id="" />
+                        <button class="btn-search">Search</button>
+                    </div>
                 </div>
-                <div class="HNAZMUL__WSLWC_NAV-items-wrapper">
-                    <ul class="list-items-area">
+
+                <div class="HNAZMUL_Navbar_NWLSBM-content">
+                    <ul class="navbar-items-wrapper">
+                        <li class="nav-item">
+                            <div href="#" class="nav-link toggler-icon"><img src="../images/toggler-icon.svg" alt="" /></div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Sign Out</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="HNAZMUL_Navbar_NWLSBM-sitebar-content">
+                    <ul class="toggle-content-wrapper">
                         <li class="nav-item"><a href="../index.html" class="nav-links">Home</a></li>
                         <li class="nav-item"><a href="#" class="nav-links">Affiliate</a></li>
                         <li class="nav-item"><a href="faqs.html" class="nav-links">FAQs</a></li>
@@ -100,8 +117,8 @@
                             <h3 class="pd-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. is? Voluptates est quis facere esse culpa maxime assumenda.</h3>
                             <h6 class="text-secondary mt-2">
                                 <em>13 March 2021</em>
-                                <span class="iconify text-danger ms-5" data-height="40px"  data-icon="clarity:heart-line" data-inline="false"></span>
-                                <span class="iconify text-danger ms-2"data-height="40px" data-icon="fluent:data-trending-16-filled" data-inline="false"></span>
+                                <span class="iconify text-danger ms-5" data-height="40px" data-icon="clarity:heart-line" data-inline="false"></span>
+                                <span class="iconify text-danger ms-2" data-height="40px" data-icon="fluent:data-trending-16-filled" data-inline="false"></span>
                             </h6>
                             <h4 class="mt-2 buttons"><button class="btn btn-sm">Genarel</button><button class="btn btn-sm">Saving</button></h4>
                         </div>
@@ -237,13 +254,43 @@
                         <!-- Facebook ads part -->
                         <div class="facebook-ads">
                             <h5 class="mb-2">Facebook Ads</h5>
-                            <div class="row row-cols-3 g-3">
-                                <img class="img-fluid" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
-                                <img class="img-fluid" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
-                                <img class="img-fluid" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
+                            <div class="row row-cols-3 g-3" id="light-box-area">
+                                <img
+                                    class="img-fluid light-box-img"
+                                    src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+                                    alt=""
+                                />
+                                <img
+                                    class="img-fluid light-box-img"
+                                    src="https://www.colesclassroom.com/wp-content/uploads/2019/01/beach-clouds-country-458846-10-800x447.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="img-fluid light-box-img"
+                                    src="https://www.treehugger.com/thmb/GPjiQZfyXMsbdakVm-8t2Ww2HxQ=/889x667/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2018__06__nature-phpoto-day-squirrel-6b50719b524c4ecbb3152a32baa38367.jpg"
+                                    alt=""
+                                />
                             </div>
                             <hr style="height: 3px" class="my-3" />
                         </div>
+
+                        <div id="product-light-box">
+                            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"  class="swiper-container mySwiper1">
+                                <div class="swiper-wrapper" id="product-lighbox-img-holder" >
+                                    
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                            <div thumbsSlider=""  class="swiper-container mySwiper2">
+                                <div id="product-lightbox-underslider" class="swiper-wrapper justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <span class="iconify" id="lightboxCloser" data-icon="fa-solid:times" data-inline="false"></span>
+                        </div>
+
+                        
 
                         <!-- targeting part -->
                         <div class="targeting-part">

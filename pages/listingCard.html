@@ -11,139 +11,207 @@
         <title>Document</title>
     </head>
     <body id="listing-card-page">
-        <nav id="HNAZMUL__NAVBAR__WSLWC">
-            <div class="HNAZMUL__WSLWC_NAV-container">
-                <div class="HNAZMUL__WSLWC_NAV-toogle-icon">
-                    <span class="iconify" data-icon="gg:menu-grid-o" data-inline="false"></span>
+        <!-- navbar here -->
+        <nav id="HNAZMUL_Navbar_NWLSBM">
+            <div class="HNAZMUL_Navbar_NWLSBM-container">
+                <div class="HNAZMUL_Navbar_NWLSBM-brand">
+                    <img class="img-fluid" src="../images/muztrends-500-pixels.png" alt="" />
                 </div>
-                <div class="HNAZMUL__WSLWC_NAV-brand">
-                    <img src="../images/logo-dark-2.png" alt="" />
+
+                <div class="HNAZMUL_Navbar_NWLSBM-searchbar">
+                    <div class="search-input">
+                        <input placeholder="Explore Topics" type="text" name="" id="" />
+                        <button class="btn-search">Search</button>
+                    </div>
                 </div>
-                <div class="HNAZMUL__WSLWC_NAV-items-wrapper">
-                    <ul class="list-items-area">
+
+                <div class="HNAZMUL_Navbar_NWLSBM-content">
+                    <ul class="navbar-items-wrapper">
+                        <li class="nav-item">
+                            <div href="#" class="nav-link toggler-icon"><img src="../images/toggler-icon.svg" alt="" /></div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Sign Out</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="HNAZMUL_Navbar_NWLSBM-sitebar-content">
+                    <ul class="toggle-content-wrapper">
                         <li class="nav-item"><a href="../index.html" class="nav-links">Home</a></li>
                         <li class="nav-item"><a href="#" class="nav-links">Affiliate</a></li>
                         <li class="nav-item"><a href="faqs.html" class="nav-links">FAQs</a></li>
                         <li class="nav-item"><a href="training.html" class="nav-links">Training</a></li>
                         <li class="nav-item"><a href="contact.html" class="nav-links">Contact US</a></li>
-                        <li class="nav-item"><a href="#" class="nav-links"><span class="iconify" data-icon="cil:heart" data-inline="false"></span> Saved</a></li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-links"><span class="iconify" data-icon="cil:heart" data-inline="false"></span> Saved</a>
+                        </li>
                         <li class="nav-item"><a href="profile.html" class="nav-links">Profile</a></li>
-                        <li class="nav-item"><a href="#" class="nav-links"><span class="iconify"  data-icon="akar-icons:sign-out" data-inline="false"></span> Sign Out</a></li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-links"><span class="iconify" data-icon="akar-icons:sign-out" data-inline="false"></span> Sign Out</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
-        <header id="header">
-            <h1 class="theme-text">Daily Trending Products</h1>
-        </header>
+        <div class="p-4 m-4 mb-0"></div>
 
         <section id="listing-product-panel">
             <div class="wrapper">
                 <!-- sitebare -->
                 <div class="sitebar">
-                    <div class="wrapper">
-                        <ul class="tabs">
-                            <li>Tabs Content 1</li>
-                            <li>Tabs Content 2</li>
-                            <li>Tabs Content 3</li>
-                        </ul>
-                    </div>
+                    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                                Home
+                                <span
+                                    data-height="12px"
+                                    id="myPopover"
+                                    class="iconify mb-3"
+                                    data-icon="bi:info-circle"
+                                    data-inline="false"
+                                    role="button"
+                                    data-bs-toggle="popover"
+                                    data-bs-trigger="focus"
+                                    title="Dismissible popover"
+                                    data-bs-content="And here's some amazing content. It's very engaging. Right?"
+                                ></span>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                                Profile
+                                <span
+                                    data-height="12px"
+                                    id="myPopover"
+                                    class="iconify mb-3"
+                                    data-icon="bi:info-circle"
+                                    data-inline="false"
+                                    role="button"
+                                    data-bs-toggle="popover"
+                                    data-bs-trigger="focus"
+                                    title="Dismissible popover"
+                                    data-bs-content="And here's some amazing content. It's very engaging. Right?"
+                                ></span>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                        </li>
+                    </ul>
                 </div>
 
                 <!-- contents -->
-                <div class="content">
-                    <div class="wrapper">
-                        <div class="listingCard">
-                            <div class="seriel-number">
-                                <h1>#01</h1>
-                            </div>
-                            <div class="title-and-content">
-                                <div class="title-and-date">
-                                    <h3 id="listing-product-card-title" data-bs-toggle="tooltip" data-bs-placement="right" title="Nuggets vs Suns Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, numquam?"> Nuggets vs Suns Lorem ipsum ...</h3>
-                                    <i>12 march 2021</i>
+                <div class="content tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="wrapper">
+                            <div class="listingCard">
+                                <div class="seriel-number">
+                                    <h1>#01</h1>
                                 </div>
-                                <div class="products-rates">
-                                    <h6>CPC <span>20.4</span></h6>
-                                    <h6>Competition <span>20.4</span></h6>
-                                    <h6>Country <span>20.4</span></h6>
+                                <div class="title-and-content">
+                                    <div class="title-and-date">
+                                        <h3
+                                            id="listing-product-card-title"
+                                            data-bs-toggle="tooltip"
+                                            data-bs-placement="right"
+                                            title="Nuggets vs Suns Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, numquam?"
+                                        >
+                                            Nuggets vs Suns Lorem ipsum ...
+                                        </h3>
+                                        <i>12 march 2021</i>
+                                    </div>
+                                    <div class="products-rates">
+                                        <h6>CPC <span>20.4</span></h6>
+                                        <h6>Volume <span>20.4</span></h6>
+                                        <h6>Country <span>20.4</span></h6>
+                                    </div>
+                                    <div>
+                                        <button class="show-details-btn">Show Details</button>
+                                    </div>
                                 </div>
-                                <div>
-                                    <button class="show-details-btn">Show Details</button>
+                                <div class="status plus">
+                                    <h4 class="text-center"><span class="iconify" data-icon="ph:trend-up-bold" data-height="30px" data-inline="false"></span> 20k+</h4>
+                                </div>
+                                <div class="save-btn">
+                                    <h4 class="text-center"><span class="iconify" data-icon="clarity:heart-line" data-height="30px" data-inline="false"></span></h4>
+                                </div>
+                                <div class="img">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKeZKE8OBYTT-xsWQOB4cUlRI1BCmfzxQu5qbgUKhYSpy5MtoCowhD-yePRH1UUw3lhto&usqp=CAU" alt="" />
                                 </div>
                             </div>
-                            <div class="status plus">
-                                <h4 class="text-center"><span class="iconify" data-icon="ph:trend-up-bold" data-height="30px" data-inline="false"></span> 20k+</h4>
-                            </div>
-                            <div class="save-btn">
-                                <h4 class="text-center"><span class="iconify" data-icon="clarity:heart-line" data-height="30px" data-inline="false"></span> Save</h4>
-                            </div>
-                            <div class="img">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKeZKE8OBYTT-xsWQOB4cUlRI1BCmfzxQu5qbgUKhYSpy5MtoCowhD-yePRH1UUw3lhto&usqp=CAU" alt="" />
-                            </div>
-                        </div>
 
-                        <div class="listingCard">
-                            <div class="seriel-number">
-                                <h1>#01</h1>
-                            </div>
-                            <div class="title-and-content">
-                                <div class="title-and-date">
-                                    <h3 data-bs-toggle="tooltip" data-bs-placement="right" title="Nuggets vs Suns Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, numquam?"> Nuggets vs Suns Lorem ipsum ...</h3>
-                                    <i>12 march 2021</i>
+                            <div class="listingCard">
+                                <div class="seriel-number">
+                                    <h1>#01</h1>
                                 </div>
-                                <div class="products-rates">
-                                    <h6>CPC <span>20.4</span></h6>
-                                    <h6>Competition <span>20.4</span></h6>
-                                    <h6>Country <span>20.4</span></h6>
+                                <div class="title-and-content">
+                                    <div class="title-and-date">
+                                        <h3 data-bs-toggle="tooltip" data-bs-placement="right" title="Nuggets vs Suns Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, numquam?">
+                                            Nuggets vs Suns Lorem ipsum ...
+                                        </h3>
+                                        <i>12 march 2021</i>
+                                    </div>
+                                    <div class="products-rates">
+                                        <h6>CPC <span>20.4</span></h6>
+                                        <h6>Volume <span>20.4</span></h6>
+                                        <h6>Country <span>20.4</span></h6>
+                                    </div>
+                                    <div>
+                                        <button class="show-details-btn">Show Details</button>
+                                    </div>
                                 </div>
-                                <div>
-                                    <button class="show-details-btn">Show Details</button>
+                                <div class="status minus">
+                                    <h4 class="text-center"><span class="iconify" data-icon="ph:trend-up-bold" data-height="30px" data-inline="false"></span> 20k+</h4>
+                                </div>
+                                <div class="save-btn">
+                                    <h4 class="text-center"><span class="iconify" data-icon="clarity:heart-line" data-height="30px" data-inline="false"></span></h4>
+                                </div>
+                                <div class="img">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKeZKE8OBYTT-xsWQOB4cUlRI1BCmfzxQu5qbgUKhYSpy5MtoCowhD-yePRH1UUw3lhto&usqp=CAU" alt="" />
                                 </div>
                             </div>
-                            <div class="status minus">
-                                <h4 class="text-center"><span class="iconify" data-icon="ph:trend-up-bold" data-height="30px" data-inline="false"></span> 20k+</h4>
-                            </div>
-                            <div class="save-btn">
-                                <h4 class="text-center"><span class="iconify" data-icon="clarity:heart-line" data-height="30px" data-inline="false"></span> Save</h4>
-                            </div>
-                            <div class="img">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKeZKE8OBYTT-xsWQOB4cUlRI1BCmfzxQu5qbgUKhYSpy5MtoCowhD-yePRH1UUw3lhto&usqp=CAU" alt="" />
-                            </div>
-                        </div>
 
-                        <div class="listingCard">
-                            <div class="seriel-number">
-                                <h1>#01</h1>
-                            </div>
-                            <div class="title-and-content locked">
-                                <div class="locker-area">
-                                    <h1><span class="iconify" data-icon="clarity:lock-solid" data-height="50px" data-inline="false"></span> Upgrade To Unlock</h1>
+                            <div class="listingCard">
+                                <div class="seriel-number">
+                                    <h1>#01</h1>
                                 </div>
-                                <div class="title-and-date">
-                                    <h3 data-bs-toggle="tooltip" data-bs-placement="right" title="Nuggets vs Suns Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, numquam?"> Nuggets vs Suns Lorem ipsum...</h3>
-                                    <i>12 march 2021</i>
+                                <div class="title-and-content locked">
+                                    <div class="locker-area">
+                                        <h1><span class="iconify" data-icon="clarity:lock-solid" data-height="50px" data-inline="false"></span> Upgrade To Unlock</h1>
+                                    </div>
+                                    <div class="title-and-date">
+                                        <h3 data-bs-toggle="tooltip" data-bs-placement="right" title="Nuggets vs Suns Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, numquam?">
+                                            Nuggets vs Suns Lorem ipsum...
+                                        </h3>
+                                        <i>12 march 2021</i>
+                                    </div>
+                                    <div class="products-rates">
+                                        <h6>CPC <span>20.4</span></h6>
+                                        <h6>Volume <span>20.4</span></h6>
+                                        <h6>Country <span>20.4</span></h6>
+                                    </div>
+                                    <div>
+                                        <button class="show-details-btn">Show Details</button>
+                                    </div>
                                 </div>
-                                <div class="products-rates">
-                                    <h6>CPC <span>20.4</span></h6>
-                                    <h6>Competition <span>20.4</span></h6>
-                                    <h6>Country <span>20.4</span></h6>
+                                <div class="status minus">
+                                    <h4 class="text-center"><span class="iconify" data-icon="ph:trend-up-bold" data-height="30px" data-inline="false"></span> 20k+</h4>
                                 </div>
-                                <div>
-                                    <button class="show-details-btn">Show Details</button>
+                                <div class="save-btn">
+                                    <h4 class="text-center"><span class="iconify" data-icon="clarity:heart-line" data-height="30px" data-inline="false"></span></h4>
                                 </div>
-                            </div>
-                            <div class="status minus">
-                                <h4 class="text-center"><span class="iconify" data-icon="ph:trend-up-bold" data-height="30px" data-inline="false"></span> 20k+</h4>
-                            </div>
-                            <div class="save-btn">
-                                <h4 class="text-center"><span class="iconify" data-icon="clarity:heart-line" data-height="30px" data-inline="false"></span> Save</h4>
-                            </div>
-                            <div class="img">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKeZKE8OBYTT-xsWQOB4cUlRI1BCmfzxQu5qbgUKhYSpy5MtoCowhD-yePRH1UUw3lhto&usqp=CAU" alt="" />
+                                <div class="img">
+                                    <div class="locked-area">
+                                        <span class="iconify" data-height="50px" data-icon="dashicons:lock-alt" data-inline="false"></span>
+                                    </div>
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKeZKE8OBYTT-xsWQOB4cUlRI1BCmfzxQu5qbgUKhYSpy5MtoCowhD-yePRH1UUw3lhto&usqp=CAU" alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
                 </div>
             </div>
         </section>

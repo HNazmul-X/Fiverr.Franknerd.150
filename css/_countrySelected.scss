@@ -5,7 +5,7 @@
     margin-top: 50px;
     h1 {
         font-weight: bold;
-        font-size: 74px;
+        font-size: 24px;
         color: #4f3e02;
     }
 }
@@ -13,12 +13,13 @@
 #select-your-country {
     h1 {
         font-weight: bold;
-        font-size: 74px;
+        font-size: 54px;
 
         color: #4f3e02;
     }
 
     .all-country-area {
+        max-width:900px;
         .countries {
             display: flex;
             flex-flow: wrap;
@@ -41,8 +42,8 @@
                         transition: all 0.5s linear;
                     }
                 }
-                width: 280px;
-                height: 280px;
+                width: 200px;
+                height: 200px;
                 border-radius: 473px;
                 border-radius: 50%;
                 background: radial-gradient(50% 50% at 50% 50%, $color1 23.63%, $primary-light 100%);
@@ -61,7 +62,7 @@
                 }
                 .country-name {
                     padding: 10px;
-                    height: 90px;
+                    height: 60px;
                     width: 100%;
                     background: #c4c4c4;
                     text-align: center;
@@ -81,7 +82,10 @@
                     z-index: 0;
                     -webkit-transition: all 0.5s;
                     transition: all 1.5s linear;
-                    padding: 90px 10px 10px 0px;
+                    padding: 40px 10px 10px 0px;
+                    h4{
+                        font-size:20px;
+                    }
                 }
             }
         }

@@ -3,7 +3,7 @@
 /* imported file */
 @import "colors";
 //navbar
-@import "HNAZMUL__WSLWC_NAV";
+@import "HNAZMUL__NAVBAR__NWLSBM";
 @import "Cotact-login-signup";
 @import "countrySelected";
 @import "WinningFiverr";
@@ -38,3 +38,13 @@ button {
     }
 }
 
+.popover-body{
+    background:rgb(238, 244, 245);
+}
+#footer{
+    background:rgb(74, 80, 87);
+
+    .text-muted, .text-secondary{
+        color:lightgray !important; 
+    }
+}
