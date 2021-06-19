@@ -1678,6 +1678,7 @@ nav#HNAZMUL_Navbar_NWLSBM .HNAZMUL_Navbar_NWLSBM-under-bar #hnazmul-toogle-conte
   background-color: red;
   position: absolute;
   left: 0px;
+  z-index: 2;
 }
 
 #listing-card-page .listingCard > div.title-and-content.locked .locker-area h1 {
@@ -2189,6 +2190,166 @@ nav#HNAZMUL_Navbar_NWLSBM .HNAZMUL_Navbar_NWLSBM-under-bar #hnazmul-toogle-conte
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#pricing-page-body {
+  /* body bg F5F5F5 */
+  /* package bg FFFFFF */
+  /* button bg 77CE49 */
+}
+
+#pricing-page-body h1,
+#pricing-page-body h2,
+#pricing-page-body h3,
+#pricing-page-body h4,
+#pricing-page-body h5 {
+  margin: 0;
+  padding: 0;
+}
+
+#pricing-page-body .thePackageSection {
+  background: #f5f5f5;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#pricing-page-body .thePackageSection .theRocketImg img {
+  position: absolute;
+  top: 14%;
+  left: 21%;
+}
+
+#pricing-page-body .thePackageSection .theTopTitle h2 {
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin: 25px;
+}
+
+#pricing-page-body .thePackageSection .theRedLine h3 {
+  color: #d90202;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin-top: 20px;
+  font-size: 22px;
+  padding: 12px;
+}
+
+#pricing-page-body .thePackageSection .theCoupon {
+  border: 3px dashed #2e2b2d;
+  width: 250px;
+  margin: auto;
+}
+
+#pricing-page-body .thePackageSection h1 {
+  font-size: 32px;
+  padding: 12px;
+}
+
+#pricing-page-body .thePackageSection .theRocket {
+  width: 75%;
+  margin: auto;
+}
+
+#pricing-page-body .thePackageSection .theRocket .theRocketImg {
+  width: 35%;
+}
+
+#pricing-page-body .thePackageSection .theRocket .theRocketImg img {
+  width: 160px;
+  -webkit-transform: translateY(110px);
+          transform: translateY(110px);
+}
+
+#pricing-page-body .thePackageSection .thePackages {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#pricing-page-body .thePackageSection .thePackages .package {
+  padding: 15px;
+  background: #fff;
+  border-radius: 12px;
+  margin: 20px;
+  width: 300px;
+}
+
+#pricing-page-body .thePackageSection .thePackages .package .miniTitle h4 {
+  font-weight: bold;
+}
+
+#pricing-page-body .thePackageSection .thePackages .package .theImage {
+  width: 80%;
+  margin: auto;
+  padding: 12px 0;
+}
+
+#pricing-page-body .thePackageSection .thePackages .package .theImage img {
+  width: 100%;
+}
+
+#pricing-page-body .thePackageSection .thePackages .package .theAmount h2 {
+  font-size: 25px;
+  color: #000;
+  font-weight: 600;
+}
+
+#pricing-page-body .thePackageSection .thePackages .package .theAmountInfo h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#pricing-page-body .thePackageSection .thePackages .package p {
+  margin: 13px 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#pricing-page-body .thePackageSection .thePackages .package:first-child p {
+  font-size: 18px;
+}
+
+#pricing-page-body .thePackageSection .thePackages .package p img {
+  width: 30px;
+}
+
+#pricing-page-body .thePackageSection .thePackages .package .buyNowBtn button {
+  padding: 8px 50px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  background: #77ce49;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1100px) and (min-width: 1001px) {
+  #pricing-page-body .thePackageSection .theRocket {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 899px) {
+  #pricing-page-body .thePackageSection .theRocket {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 690px) {
+  #pricing-page-body .thePackageSection .theRocket {
+    width: 100%;
+  }
 }
 
 * {

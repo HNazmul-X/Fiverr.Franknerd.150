@@ -1,0 +1,132 @@
+/* body bg F5F5F5 */
+/* package bg FFFFFF */
+/* button bg 77CE49 */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+.thePackageSection {
+    background: #f5f5f5;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+    .theRocketImg {
+        img {
+            position: absolute;
+            top: 14%;
+            left: 21%;
+        }
+    }
+}
+.thePackageSection .theTopTitle h2 {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin: 25px;
+}
+.thePackageSection .theRedLine h3 {
+    color: #d90202;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-top: 20px;
+    font-size: 22px;
+    padding: 12px;
+}
+.thePackageSection .theCoupon {
+    border: 3px dashed #2e2b2d;
+    width: 250px;
+    margin: auto;
+}
+.thePackageSection h1 {
+    font-size: 32px;
+    padding: 12px;
+}
+.thePackageSection .theRocket {
+    width: 75%;
+    margin: auto;
+}
+.thePackageSection .theRocket .theRocketImg {
+    width: 35%;
+}
+.thePackageSection .theRocket .theRocketImg img {
+    width: 160px;
+    transform: translateY(110px);
+}
+.thePackageSection .thePackages {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.thePackageSection .thePackages .package {
+    padding: 15px;
+    background: #fff;
+    border-radius: 12px;
+    margin: 20px;
+    width: 300px;
+}
+.thePackageSection .thePackages .package .miniTitle h4 {
+    font-weight: bold;
+}
+.thePackageSection .thePackages .package .theImage {
+    width: 80%;
+    margin: auto;
+    padding: 12px 0;
+}
+.thePackageSection .thePackages .package .theImage img {
+    width: 100%;
+}
+
+.thePackageSection .thePackages .package .theAmount h2 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+}
+.thePackageSection .thePackages .package .theAmountInfo h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.thePackageSection .thePackages .package p {
+    margin: 13px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.thePackageSection .thePackages .package:first-child p {
+    font-size: 18px;
+}
+.thePackageSection .thePackages .package p img {
+    width: 30px;
+}
+.thePackageSection .thePackages .package .buyNowBtn button {
+    padding: 8px 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    background: #77ce49;
+    margin-top: 20px;
+}
+@media screen and (max-width: 1100px) and (min-width: 1001px) {
+    .thePackageSection .theRocket {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 899px) {
+    .thePackageSection .theRocket {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 690px) {
+    .thePackageSection .theRocket {
+        width: 100%;
+    }
+}

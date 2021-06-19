@@ -15,6 +15,10 @@
 #product-details{
     @import "productDetails";
 }
+#pricing-page-body{
+    @import "pricing";
+}
+
 
 * {
     font-family: "poppins", sans-serif;

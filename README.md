@@ -12,6 +12,8 @@
  <li> <em><a href="https://fiverr-franknerd-150.netlify.app/pages/trainingpage">Profile Page</a> </em> </li>
  <li> <em><a href="https://fiverr-franknerd-150.netlify.app/pages/contact.html">Contact Us Page</a> </em> </li>
  <li> <em><a href="https://fiverr-franknerd-150.netlify.app/pages/winning-product">Winning Product card Page</a> </em> </li>
+
  <li> <em><a href="https://fiverr-franknerd-150.netlify.app/pages/ProductDetails.html">Product Details Page</a> </em> </li>
+ <li> <em><a href="https://fiverr-franknerd-150.netlify.app/pages/pricing.html">Pricing Page (11th)</a> </em> </li>
 
 </ol>
