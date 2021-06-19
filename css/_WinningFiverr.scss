@@ -16,6 +16,19 @@
     margin-top: -2rem;
     position: relative;
     z-index: 2;
+
+
+    ul.navbar-nav.justify-content-center{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        .nav-item{
+            @media screen and (max-width:676px) {
+                width:40%;
+                text-align: center;
+            }
+        }
+    }
 }
 
 #product-card-section {
