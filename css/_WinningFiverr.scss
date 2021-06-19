@@ -19,18 +19,16 @@
 }
 
 #product-card-section {
-    margin:1rem auto 5rem auto;
+    margin: 1rem auto 5rem auto;
     .all-product-card {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 60px 20px;
-        @media screen and (max-width:980px){
-            grid-template-columns:repeat(2, 1fr)
-            
+        @media screen and (max-width: 980px) {
+            grid-template-columns: repeat(2, 1fr);
         }
-        @media screen and (max-width:680px){
-            grid-template-columns:repeat(1, 1fr)
-            
+        @media screen and (max-width: 680px) {
+            grid-template-columns: repeat(1, 1fr);
         }
         .Product-card {
             background: lighten($color: $primary-color-softlight, $amount: 4);
@@ -39,94 +37,101 @@
             border-radius: 23px;
             cursor: pointer;
             transition: 0.3s;
-            &:hover{
+            &:hover {
                 transform: translateY(-10px);
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.281), -3px 12px 31px 2px rgba(29, 59, 118, 0.363);
-
             }
 
-            &.locked-card{
+            &.locked-card {
                 overflow: hidden;
-                .product-thumnail-wrapper{
+                .product-thumnail-wrapper {
                     z-index: 2;
                     overflow: hidden;
-                    .locked-status{
+                    .locked-status {
                         position: absolute;
-                        width:100%;
-                        height:100%;
-                        background:red;
-                        color:white;
-                        top:0px;
-                        left:0px;
-                        z-index: 101;
-                        display: grid!important;
-                        place-items: center ;
-
+                        width: 100%;
+                        height: 100%;
+                        background: red;
+                        color: white;
+                        top: 0px;
+                        left: 0px;
+                        z-index: 6;
+                        display: grid !important;
+                        place-items: center;
                     }
                 }
-                .card-button-view{
+                .card-button-view {
                     position: relative;
                     overflow: hidden;
-                    &::after{
+                    &::after {
                         content: "Upgrade to Unlock";
                         display: block;
-                        background:red;
-                        color:white;
+                        background: red;
+                        color: white;
                         position: absolute;
-                        top:0px;
-                        left:0px;
-                        width:100%;
-                        height:100%;
-                        padding:10px;
+                        top: 0px;
+                        left: 0px;
+                        width: 100%;
+                        height: 100%;
+                        padding: 10px;
                     }
                 }
-
             }
             .product-thumnail-wrapper {
                 position: relative;
                 width: 100%;
                 height: 227px;
                 z-index: 1;
-                .seriel-number{
+                .seriel-number {
                     position: absolute;
-                    left:10px;
-                    top:10px;
-                    padding:10px 5px;
-                    background: $primary-color;
-                    color:$primary-light;
-                    border-radius: 50%;
+                    left: 10px;
+                    top: 5px;
+                    padding: 10px;
+                    border-radius: 5px;
+                    font-size: 18px;
+                    z-index: 6;
+
+                    background:#001e8c;
+                    color:white;
                 }
                 .trend-status {
                     position: absolute;
-                    right:10px;
-                    top:5px;
-                    padding:10px;
+                    right: 10px;
+                    top: 5px;
+                    padding: 10px;
                     border-radius: 5px;
-                    font-size:18px;
+                    font-size: 18px;
+                    z-index: 6;
                 }
-                &::after{
+                &::after {
                     position: absolute;
-                    content:"";
-                    width:100%;
-                    height:100%;
-                    display: table;
-                    background: linear-gradient(359.14deg, $primary-color-light 0.67%, rgba(227, 204, 139, 0) 46.03%, rgba(196, 196, 196, 0) 97.64%);;
-                    top:0px;left:0px;
-                    z-index: 100;
-                }
-                img{
+                    content: "";
                     width: 100%;
-                    height:100%;
+                    height: 100%;
+                    display: table;
+                    background: linear-gradient(359.14deg, $primary-color-light 0.67%, rgba(227, 204, 139, 0) 46.03%, rgba(196, 196, 196, 0) 97.64%);
+                    top: 0px;
+                    left: 0px;
+                    z-index: 5;
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
                     object-fit: contain;
                 }
             }
-            .product-desc{
-                color:$primary-color-dark;
-                padding:20px;
-                h1,h2,h4,h5,h6,h3{
-                    color:$primary-color-dark;
-                    span{
-                        color:$primary-color;
+            .product-desc {
+                color: $primary-color-dark;
+                padding: 20px;
+                h1,
+                h2,
+                h4,
+                h5,
+                h6,
+                h3 {
+                    color: $primary-color-dark;
+                    span {
+                        color: $primary-color;
                     }
                 }
             }

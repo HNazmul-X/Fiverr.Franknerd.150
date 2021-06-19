@@ -965,7 +965,7 @@ nav#HNAZMUL_Navbar_NWLSBM .HNAZMUL_Navbar_NWLSBM-under-bar #hnazmul-toogle-conte
   color: white;
   top: 0px;
   left: 0px;
-  z-index: 101;
+  z-index: 6;
   display: -ms-grid !important;
   display: grid !important;
   place-items: center;
@@ -999,11 +999,13 @@ nav#HNAZMUL_Navbar_NWLSBM .HNAZMUL_Navbar_NWLSBM-under-bar #hnazmul-toogle-conte
 #product-card-section .all-product-card .Product-card .product-thumnail-wrapper .seriel-number {
   position: absolute;
   left: 10px;
-  top: 10px;
-  padding: 10px 5px;
-  background: #789;
-  color: #fff;
-  border-radius: 50%;
+  top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  z-index: 6;
+  background: #001e8c;
+  color: white;
 }
 
 #product-card-section .all-product-card .Product-card .product-thumnail-wrapper .trend-status {
@@ -1013,6 +1015,7 @@ nav#HNAZMUL_Navbar_NWLSBM .HNAZMUL_Navbar_NWLSBM-under-bar #hnazmul-toogle-conte
   padding: 10px;
   border-radius: 5px;
   font-size: 18px;
+  z-index: 6;
 }
 
 #product-card-section .all-product-card .Product-card .product-thumnail-wrapper::after {
@@ -1024,7 +1027,7 @@ nav#HNAZMUL_Navbar_NWLSBM .HNAZMUL_Navbar_NWLSBM-under-bar #hnazmul-toogle-conte
   background: linear-gradient(359.14deg, #90899b 0.67%, rgba(227, 204, 139, 0) 46.03%, rgba(196, 196, 196, 0) 97.64%);
   top: 0px;
   left: 0px;
-  z-index: 100;
+  z-index: 5;
 }
 
 #product-card-section .all-product-card .Product-card .product-thumnail-wrapper img {
@@ -1039,11 +1042,21 @@ nav#HNAZMUL_Navbar_NWLSBM .HNAZMUL_Navbar_NWLSBM-under-bar #hnazmul-toogle-conte
   padding: 20px;
 }
 
-#product-card-section .all-product-card .Product-card .product-desc h1, #product-card-section .all-product-card .Product-card .product-desc h2, #product-card-section .all-product-card .Product-card .product-desc h4, #product-card-section .all-product-card .Product-card .product-desc h5, #product-card-section .all-product-card .Product-card .product-desc h6, #product-card-section .all-product-card .Product-card .product-desc h3 {
+#product-card-section .all-product-card .Product-card .product-desc h1,
+#product-card-section .all-product-card .Product-card .product-desc h2,
+#product-card-section .all-product-card .Product-card .product-desc h4,
+#product-card-section .all-product-card .Product-card .product-desc h5,
+#product-card-section .all-product-card .Product-card .product-desc h6,
+#product-card-section .all-product-card .Product-card .product-desc h3 {
   color: #263036;
 }
 
-#product-card-section .all-product-card .Product-card .product-desc h1 span, #product-card-section .all-product-card .Product-card .product-desc h2 span, #product-card-section .all-product-card .Product-card .product-desc h4 span, #product-card-section .all-product-card .Product-card .product-desc h5 span, #product-card-section .all-product-card .Product-card .product-desc h6 span, #product-card-section .all-product-card .Product-card .product-desc h3 span {
+#product-card-section .all-product-card .Product-card .product-desc h1 span,
+#product-card-section .all-product-card .Product-card .product-desc h2 span,
+#product-card-section .all-product-card .Product-card .product-desc h4 span,
+#product-card-section .all-product-card .Product-card .product-desc h5 span,
+#product-card-section .all-product-card .Product-card .product-desc h6 span,
+#product-card-section .all-product-card .Product-card .product-desc h3 span {
   color: #789;
 }
 
@@ -1563,9 +1576,9 @@ nav#HNAZMUL_Navbar_NWLSBM .HNAZMUL_Navbar_NWLSBM-under-bar #hnazmul-toogle-conte
 }
 
 #listing-card-page #listing-product-panel > .wrapper .content {
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 20;
-  grid-column: 3 / span 20;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 18;
+  grid-column: 4 /  22;
   padding: 20px;
 }
 
@@ -1623,12 +1636,13 @@ nav#HNAZMUL_Navbar_NWLSBM .HNAZMUL_Navbar_NWLSBM-under-bar #hnazmul-toogle-conte
 
 #listing-card-page .listingCard > div.seriel-number {
   width: 10%;
-  background: #789;
+  background: #001e8c;
 }
 
 #listing-card-page .listingCard > div.seriel-number h1 {
   text-align: center;
   font-size: 25px;
+  color: white;
 }
 
 #listing-card-page .listingCard > div.title-and-content {
@@ -1680,10 +1694,13 @@ nav#HNAZMUL_Navbar_NWLSBM .HNAZMUL_Navbar_NWLSBM-under-bar #hnazmul-toogle-conte
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 5px;
-  width: 95%;
+  width: 80%;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
 }
 
 #listing-card-page .listingCard > div.title-and-content .products-rates h6 {
+  width: 35%;
   color: #789;
 }
 
@@ -1695,6 +1712,8 @@ nav#HNAZMUL_Navbar_NWLSBM .HNAZMUL_Navbar_NWLSBM-under-bar #hnazmul-toogle-conte
   padding: 5px 10px;
   margin-top: 10px;
   cursor: pointer;
+  background: orange;
+  color: #090920;
 }
 
 #listing-card-page .listingCard > div.status {

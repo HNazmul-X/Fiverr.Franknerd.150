@@ -82,7 +82,7 @@ header#header {
             }
         }
         .content {
-            grid-column: 3 / span 20;
+            grid-column: 4 /  22;
             padding: 20px;
             & > .wrapper {
                 width: 100%;
@@ -123,11 +123,12 @@ header#header {
     & > div {
         &.seriel-number {
             width: 10%;
-            background: $primary-color;
+            background:#001e8c;
             @extend .vertical-center;
             h1 {
                 text-align: center;
                 font-size: 25px;
+                color:white;
             }
         }
         &.title-and-content {
@@ -163,8 +164,10 @@ header#header {
                 display: flex;
                 justify-content: space-between;
                 margin-bottom: 5px;
-                width: 95%;
+                width: 80%;
+                flex-flow: wrap;
                 h6 {
+                    width:35%;
                     color: $primary-color;
                     span {
                         color: $primary-color-dark;
@@ -176,6 +179,8 @@ header#header {
                 padding: 5px 10px;
                 margin-top: 10px;
                 cursor: pointer;
+                background:orange;
+                color:rgb(9, 9, 32);
             }
         }
         &.status {
