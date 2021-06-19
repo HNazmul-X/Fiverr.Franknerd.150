@@ -40,6 +40,9 @@ const popoverTriggerList = []?.slice?.call(document.querySelectorAll('[data-bs-t
 const popoverList = popoverTriggerList?.map(function (popoverTriggerEl) {
     return new bootstrap.Popover(popoverTriggerEl);
 });
+// var popover = new bootstrap.Popover(document.querySelector("#myPopover"), {
+//     trigger: "focus",
+// });
 
 /*  */
 try {
@@ -135,4 +138,18 @@ try {
             clickable: true,
         },
     });
-} catch (err) {}
+} catch (err) {
+    console.log(err);
+}
+
+/** navbar toggle content */
+try {
+    const togglerIcon = document.querySelector("#hnazmul-toogle-content-area .hnazmul-toggler-icon");
+    const togglerContent = document.querySelector("#hnazmul-toogle-content-area .hnazmul-toggler-content");
+
+    togglerIcon.addEventListener("click", () => {
+        togglerContent.classList.toggle("left");
+    });
+} catch (err) {
+    console.log(err);
+}
