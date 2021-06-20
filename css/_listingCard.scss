@@ -1,5 +1,6 @@
 @import "colors";
 
+
 nav#HNAZMUL_Navbar_NWLSBM {
     box-shadow: none;
     border-bottom: 2px solid rgba(128, 128, 128, 0.616);
@@ -30,6 +31,7 @@ header#header {
     background: #fbf6e8;
     height: auto;
     overflow: hidden;
+    padding-top: 3rem;
     @media screen and (max-width: 676px) {
         height: auto;
     }
