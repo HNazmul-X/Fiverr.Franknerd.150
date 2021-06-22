@@ -2008,6 +2008,7 @@ nav#HNAZMUL_Navbar_NWLSBM .HNAZMUL_Navbar_NWLSBM-under-bar #hnazmul-toogle-conte
 
 #product-details #product-details-section .product-details-container .product-all-description .analytics-profit-cost .analytics > .wrapper {
   border: 1px solid rgba(0, 0, 0, 0.199);
+  height: 100%;
 }
 
 #product-details #product-details-section .product-details-container .product-all-description .analytics-profit-cost .analytics > .wrapper > h5 {
