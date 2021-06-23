@@ -40,6 +40,7 @@ const popoverTriggerList = []?.slice?.call(document.querySelectorAll('[data-bs-t
 const popoverList = popoverTriggerList?.map(function (popoverTriggerEl) {
     return new bootstrap.Popover(popoverTriggerEl);
 });
+
 // var popover = new bootstrap.Popover(document.querySelector("#myPopover"), {
 //     trigger: "focus",
 // });
